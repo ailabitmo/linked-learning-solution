@@ -1,0 +1,6 @@
+ <img src="http://open.ifmo.ru/images/0/08/2268271_int005.gif"/> Two coherent light sources having wavelength Î» = 600
+    nm are placed into two media: carbon disulphide (n1 = 1.665) 
+    and bromoform (n2 = 1.6665). A ray travels to point A on the <LU LEMMA="wavelength" CAT="N" FLX="NEUTER_E" Case="loc" Nb="sg">Wavelength</LU>
+    screen in time t1 = 1.110Â·10-10 sec from the source S1 and in
+    time t2 = 1.111Â·10-10 sec from the source S2. What is the path <LU LEMMA="interference" CAT="N" FLX="NEUTER_E" Case="loc" Nb="sg">interference</LU>
+    difference (Î) and interference order (k) in A?  No right answer. Î = 50 Î»; k = 25. Î = 50 Î»; k = 50. Î = 25 Î»; k = 50. Î = 100 Î»; k = 50. Î = 100 Î»; k = 100.

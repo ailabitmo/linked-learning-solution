@@ -1,0 +1,20 @@
+{{#sparql: SELECT  ?label WHERE {
+   OPTIONAL {?? rdfs:label ?label . FILTER (langMatches(lang(?label), "ru")) } 
+   OPTIONAL {?? rdfs:label ?label } } 
+ | format=template
+ | template=Template:TitleTemplate
+}}
+
+== Содержание ==
+{{#widget: QueryResult | 
+ hideIfEmpty = true
+ | query = 'SELECT ?group_of_tasks 
+WHERE { 
+?? ifmotest:hasGroupOfTasks ?group_of_tasks .
+ }'
+  | format = 'UL'
+  | asynch = true
+}}
+
+== Источники ==
+'''XML версия:''' {{#show: {{this}} | dc:source | noDataMessage=Нет XML-версии}} 

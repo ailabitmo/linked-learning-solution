@@ -1,0 +1,9 @@
+ <img src="http://open.ifmo.ru/images/a/ad/2268751_int091.gif"/> Point A on the screen marks the Nth interference ring
+    from the point monochromatic source throwing light to the plane
+    parallel glass. How a) increase of d; b) decrease of d will
+    influence the number of the ring in point A?  No right answer. Ð°) will descrease; b) will
+      increase. Ð°) will increase; b) will
+      descrease. Diameters of the rings do not depend on d
+      and n. Both cases result in decrease of
+      N. Both cases result in increase of
+      N.

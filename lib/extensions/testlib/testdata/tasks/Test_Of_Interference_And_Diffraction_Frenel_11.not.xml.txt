@@ -1,0 +1,9 @@
+ <img src="http://open.ifmo.ru/images/3/3e/2268901_dif18p.gif"/> A point monochromatic source throws light to an
+    opaque disk D. A light spot (Poisson spot) is observed on the
+    screen P in the centre of the geometric shadow. Select all true
+    statements about this spot.  The spot appears only when the disc
+      overlaps an odd number of Fresnel zones. The spot appears only when the disc
+      overlaps an even number of Fresnel zones. The spot appears only when the disc
+      overlaps any number of Fresnel zones. If D increases, the spot becomes more
+      narrow and hueless. If L decreases, the spot becomes more
+      narrow and hueless.

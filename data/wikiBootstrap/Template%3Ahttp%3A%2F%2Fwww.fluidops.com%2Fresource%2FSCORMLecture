@@ -1,0 +1,25 @@
+= $this.rdfs:label$ =
+
+=== About ===
+
+'''Module''': $this.learningRu:isLectureOf$
+
+'''Number of lecture''': $this.learningRu:numberOfLecture$ 
+
+=== Terms ===
+
+{{#sparql: SELECT DISTINCT ?label
+ WHERE { ?term learningRu:isTermOf {{this}} . { 
+   OPTIONAL {?term rdfs:label ?label . FILTER (langMatches(lang(?label), "en")) } 
+   OPTIONAL {?term rdfs:label ?label } } 
+} 
+ | format=template
+ | template=Template:ListTemplate
+}}
+
+=== Video Lectures ===
+
+{{#sparql: SELECT (str(?u) as ?url) WHERE { { {{this}} learningRu:hasResource ?u  } UNION {?u learningRu:isResourceOf {{this}} }. ?u ma-ont:identifier ?uri . FILTER regex(str(?u), "^http://smartag.tv/") } 
+ | format=template
+ | template=Template:SmartagTemplateSCORM
+}}

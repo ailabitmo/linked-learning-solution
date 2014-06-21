@@ -1,0 +1,5 @@
+ <img src="http://open.ifmo.ru/images/5/5d/2268771_dif11p.gif"/> A monochromatic light source throws light to the
+    screen with an aperture. Fresnel diffraction by a round <LU LEMMA="diffraction" CAT="N" FLX="NEUTER_E" Case="loc" Nb="sg">Diffraction</LU>
+    aperture is observed on the 2nd screen. Choose all possible
+    numbers of the observed pattern given an odd number of Fresnel  <LU LEMMA="subtree" CAT="N" FLX="NEUTER_E" Case="loc" Nb="sg">Subtree</LU>
+    zones open.  1 2 3 4 5 No right answer.

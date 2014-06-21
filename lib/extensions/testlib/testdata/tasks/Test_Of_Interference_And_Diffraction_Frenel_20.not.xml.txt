@@ -1,0 +1,6 @@
+ <img src="http://open.ifmo.ru/images/3/3e/2268901_dif18p.gif"/> A disc D having diameter 0.5 sm and roughnesses of 10
+    mkm is placed at 1 m distance from a point source S (Î» = 0.5
+    mkm). Assuming that Poisson light can be observed until
+    roughnesses overlap the Fresnel zone not exceeding 1/4, find
+    the minimal distance L (in meters), when Poisson spot can be
+    observed. 

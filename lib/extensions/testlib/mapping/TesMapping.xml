@@ -1,0 +1,46 @@
+<mappingSpec>
+
+	<rule id="test" nodeBase="//test" owlType="learningRu:Test"             
+	 instanceNamespace="openeduTests"
+	 objectId="{./@uri}" objectLabel="{./@name}">
+        <objectPropertyMapping nodeBase="." 
+        	instanceNamespace="openeduTests"
+			value="{./@name}" 
+			owlProperty="ifmotest:hasGroupOfTasks" 
+			referredRule="task_group" />
+	</rule>
+
+	<rule id="task_group" nodeBase="//test" owlType="ifmotest:GroupOfTasks" 
+		instanceNamespace="openeduTests"
+		objectId="{./@name}" objectLabel="{./@name}">
+        <objectPropertyMapping nodeBase="./task" 
+			value="{../@name}_{./@id}" 
+			owlProperty="ifmotest:hasTask" 
+			referredRule="task" />
+	</rule>
+
+	<rule id="task" nodeBase="//task" 
+		owlType="ifmotest:MultipleChoiceQuestion"
+		objectId="{../@name}_{./@id}" 
+		instanceNamespace="openeduTests"
+		objectLabel="{../@name}: #{./@id}">
+        <objectPropertyMapping nodeBase="./answers/answer" 
+			value="{./text()}" 
+			owlProperty="ifmotest:hasAnswer" 
+			referredRule="answer" />
+        <objectPropertyMapping nodeBase='./answers/answer[@right="yes"]' 
+			value="{./text()}" 
+			owlProperty="ifmotest:hasCorrectAnswer" 
+			referredRule="answer" />
+        <datatypePropertyMapping value="1" owlProperty="ifmotest:difficulty" />
+        <datatypePropertyMapping value="{./question/text()}" owlProperty="ifmotest:html_content" />
+        <datatypePropertyMapping value='&lt;img src="{normalize-space(./question_img)}"/&gt;' owlProperty="ifmotest:html_content" />
+	</rule>
+
+	<rule id="answer" nodeBase="//answer" owlType="ifmotest:Answer" 
+		instanceNamespace="openeduTests"
+		objectId="{./text()}" objectLabel="Answer: {./text()}">
+        <datatypePropertyMapping value="{./text()}" owlProperty="ifmotest:html_content" />
+	</rule>
+
+</mappingSpec>

@@ -1,0 +1,7 @@
+ The fringe width in the Young double-slit <LU LEMMA="fringes" CAT="N" FLX="NEUTER_E" Case="loc" Nb="sg">fringe</LU>
+    interferometer ...  ... depends on the spacing between the
+      light source and the fringes. ... does not depend on light source
+      wavelength. ... depends on the spacing between the
+      screens with single and double slit. ... does not depend on the position of
+      the observation plane. ... depends o the spacing between the
+      fringes. No right answer

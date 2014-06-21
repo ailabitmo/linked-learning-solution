@@ -1,0 +1,5 @@
+ <img src="http://open.ifmo.ru/images/0/07/2268851_dif30p.gif"/> A screen with a changeable aperture is set between a
+    point source S and a point of observance P. Amplitude in P
+    corresponds to the vector AB1 if the radius of the aperture is
+    R. If the amplitude now corresponds to the vector AB2, what is
+    the change of R?  No right answer. R decreased by 1.29 times. R increased by 1.29 times. R increased by 1.67 times. R decreased by 1.73 times. R increased by 1.73 times.

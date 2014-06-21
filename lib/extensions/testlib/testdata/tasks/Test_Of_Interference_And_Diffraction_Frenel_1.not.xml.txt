@@ -1,0 +1,3 @@
+ Coherence length and time characterize  ... temporal coherence<LU LEMMA="temporal coherence" CAT="N" FLX="NEUTER_E" Case="loc" Nb="sg">temporal coherence</LU>. ... spatial coherence<LU LEMMA="spatial coherence" CAT="N" FLX="NEUTER_E" Case="loc" Nb="sg">spatial coherence</LU>. The first measure characterizes temporal
+      coherence, the second - spatial coherence. The first measure characterizes spatial
+      coherence, the second - temporal coherence. No right answer.

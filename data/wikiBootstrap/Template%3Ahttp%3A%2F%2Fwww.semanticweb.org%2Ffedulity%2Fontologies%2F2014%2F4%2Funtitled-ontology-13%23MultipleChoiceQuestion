@@ -1,0 +1,53 @@
+{{#sparql: SELECT  ?label WHERE {
+   OPTIONAL {?? rdfs:label ?label . FILTER (langMatches(lang(?label), "ru")) } 
+   OPTIONAL {?? rdfs:label ?label } } 
+ | format=template
+ | template=Template:TitleTemplate
+}}
+
+=== Общая информация ===
+'''Тип вопроса:''' Вопрос с множественным выбором
+
+'''Сложность:''' $this.ifmotest:difficulty$
+
+=== Вопрос === 
+{{#widget: QueryResult | 
+ hideIfEmpty = true
+ | query = 'SELECT ?content
+WHERE { 
+?? ifmotest:html_content ?content
+ }'
+ | valueConfiguration = {{ 
+      {{ valueResolver = 'HTML'
+       | variableName = 'content'
+      }} }}
+ | format = 'LINE'
+ | asynch = true
+}}
+<br/>
+
+=== Варианты ответов ===
+
+{{#widget: QueryResult | 
+ hideIfEmpty = true
+ | query = 'SELECT ?content
+WHERE { 
+?? ifmotest:hasAnswer ?answer .
+?answer ifmotest:html_content ?content
+ }'
+  | format = 'UL'
+  | asynch = true
+}}
+
+=== Правильные ответы ===
+
+{{#widget: QueryResult | 
+ hideIfEmpty = true
+ | query = 'SELECT ?content
+WHERE { 
+?? ifmotest:hasCorrectAnswer ?answer .
+?answer ifmotest:html_content ?content
+ }'
+  | format = 'UL'
+  | asynch = true
+}}

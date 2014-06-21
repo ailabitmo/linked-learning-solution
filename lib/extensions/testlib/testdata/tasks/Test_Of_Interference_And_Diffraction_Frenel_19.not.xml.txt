@@ -1,0 +1,7 @@
+ <img src="http://open.ifmo.ru/images/a/a8/2270431_int072p.gif"/> An interference pattern is observed in the reflected
+    light in the following system: a convexo-plane lens (n1 = 1.69)
+    is enclosed into a concave-plane lens (n2 = 1.63), the space
+    between them is filled with benzene. Mark the number of the
+    right condition for emerging of dark rings. The left part of
+    the formula should contain expression for the optical path
+    difference of the interfering rays.  1 2 3 4 5 No right answer. There is no right expression.

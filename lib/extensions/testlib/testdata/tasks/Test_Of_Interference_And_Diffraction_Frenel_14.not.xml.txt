@@ -1,0 +1,4 @@
+ <img src="http://open.ifmo.ru/images/0/0f/2268471_int008.gif"/> A ray emitted by the light source S hits the
+    Michelson interferometer. It is divided in half by the beam
+    splitter. The rays unit on the screen P. Path difference of the
+    interfering rays is:  SOM1 - OM1 OM1 - SOM2 OM1 - OM2 No right answer. 2Â·(OM1 - OM2) 2Â·(OM1 - OP)

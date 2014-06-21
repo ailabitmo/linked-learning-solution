@@ -1,0 +1,7 @@
+ <img src="http://open.ifmo.ru/images/f/fa/2268251_int001.gif"/> The figure shows plane P with light travelling from
+    sources S1 and S2. The fringe width is the spacing<LU LEMMA="fringes" CAT="N" FLX="NEUTER_E" Case="loc" Nb="sg">fringe</LU>
+    between  No right answer. neighboring high and low intensity
+      peaks. neighboring high intensity peaks or low
+      intensity peaks. zero-order maximum and the first
+      intensity minimum. zero-order maximum and the point of
+      observation.

@@ -1,0 +1,4 @@
+ <img src="http://open.ifmo.ru/images/9/95/2268961_dif38p.gif"/> A plane monochromatic lightwave normally falls on a
+    screen with a round aperture D. The aperture diameter decreases
+    by N times. Calculate the new distance b, which will produce
+    the same diffraction pattern decreased by N times.  b/N2 b/N b No right answer. b Â· N2 b Â· N

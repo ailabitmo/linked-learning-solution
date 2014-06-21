@@ -1,0 +1,97 @@
+{{#sparql: SELECT  ?label WHERE {
+   OPTIONAL {{{this}} rdfs:label ?label . FILTER (langMatches(lang(?label), 'ru')) } 
+   OPTIONAL {{{this}} rdfs:label ?label } } 
+ | format=template
+ | template=Template:TitleTemplate
+}}
+
+
+{{#ifexpr: {{#sparql: ASK { {{this}} learningRu:author ?Автор } }}  
+ | === Авторы ===
+
+{{ #widget : QueryResult
+  | query = 'SELECT DISTINCT ?Автор
+ WHERE { ?? learningRu:author ?Автор. }'
+  | format = 'UL'
+  | noDataMessage = 'Нет авторов'
+}}
+}}
+
+{{#ifexpr: {{#sparql: ASK { {{this}} aiiso:description ?Описание } }}  
+ | === Описание ===
+$this.aiiso:description$
+}}
+
+
+=== Модули ===
+{{ #widget : QueryResult
+  | query = 'SELECT DISTINCT ?Название
+ WHERE { {  ?? learningRu:hasModule ?Название } UNION { ?Название learningRu:isModuleOf  ?? } . ?Название learningRu:numberOfModule ?number }
+ ORDER BY ASC(?number)'
+  | format = 'UL'
+  | noDataMessage = 'Нет модулей'
+}}
+
+{{#sparql: SELECT DISTINCT ?label
+ WHERE { {  ?? learningRu:hasModule ?label } UNION { ?label learningRu:isModuleOf  ?? } . ?label learningRu:numberOfModule ?number }
+ | format=template
+ | template=Template:ListTemplate
+}}
+
+=== Термины ===
+
+{{#widget: TagCloud | 
+ query = 'SELECT   (COUNT(?term) AS ?countTerm) ?term
+WHERE { { ?term learningRu:isTermOf ?lecture } 
+   UNION  { ?lecture learningRu:hasTerm ?term} .
+      {?? learningRu:hasModule ?module }  UNION { ?module learningRu:isModuleOf  ?? } .
+      {?module learningRu:hasLecture ?lecture } UNION {?lecture learningRu:isLectureOf ?module}
+}
+GROUP BY ?term
+ORDER BY DESC (?countTerm)
+LIMIT 13' |
+  input = 'term' |
+  output = 'countTerm' |
+  width = '600'
+}}
+<br/>
+
+{{#widget: SCORMExportWidget | 
+ lectureQuery = 'SELECT DISTINCT ?lecture WHERE { {?? learningRu:hasModule ?module }  UNION { ?module learningRu:isModuleOf  ?? }.       {?module learningRu:hasLecture ?lecture } UNION {?lecture learningRu:isLectureOf ?module}}'
+ | lecturePageTemplate = 'Template:SCORMLecture'
+ | finalPageTemplate = 'Template:SCORMCourseFinal'
+ | titlePageTemplate = 'Template:aiiso:CourseMain'
+}}
+=== Список литературы ===
+
+{{#ifexpr: {{#sparql: SELECT DISTINCT ?Произведение
+ WHERE { ?? learningRu:hasResource ?Произведение . FILTER regex(str(?Произведение), "^http://books.ifmo.ru") .} }}  
+ |
+==== Библиотека НИУ ИТМО ====
+
+{{ #widget : QueryResult
+  | query = 'SELECT DISTINCT ?Произведение
+ WHERE { ?? learningRu:hasResource ?Произведение . FILTER regex(str(?Произведение), "^http://books.ifmo.ru") .}
+ ORDER BY ASC(?Произведение)'
+  | format = 'UL'
+  | noDataMessage = 'Нет литературы'
+}}
+
+}}
+
+{{#ifexpr: {{#sparql: SELECT DISTINCT ?Произведение
+ WHERE { ?? learningRu:hasResource ?Произведение . FILTER regex(str(?Произведение), "^http://bnb.data.bl.uk/") .} }}  
+ |
+==== British National Bibliography  ====
+
+{{ #widget : QueryResult
+  | query = 'SELECT DISTINCT ?Произведение
+ WHERE { ?? learningRu:hasResource ?Произведение . FILTER regex(str(?Произведение), "^http://bnb.data.bl.uk/") .}
+ ORDER BY ASC(?Произведение)'
+  | format = 'UL'
+  | noDataMessage = 'Нет литературы'
+}}
+
+}}
+
+<a href="/resource/{{FULLPAGENAME}}?analytic=1">Просмотреть аналитику курса</a>

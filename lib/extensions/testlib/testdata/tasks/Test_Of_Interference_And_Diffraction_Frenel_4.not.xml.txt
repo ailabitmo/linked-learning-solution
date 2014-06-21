@@ -1,0 +1,10 @@
+ <img src="http://open.ifmo.ru/images/a/a0/2268341_int025.gif"/> The figure shows the interference pattern on the
+    plane P from the Fresnel biprism. Biprism refractive index is <LU LEMMA="interference" CAT="N" FLX="NEUTER_E" Case="loc" Nb="sg">interference</LU>
+    n, diffract is Î±. If Î± changes slightly, how will the
+    interference pattern alter?  No right answer. The interference pattern will
+      move. The width of the difraction fringe will  <LU LEMMA="diffraction" CAT="N" FLX="NEUTER_E" Case="loc" Nb="sg">Diffraction</LU>
+      grow. The width of the difraction fringe will
+      reduce. The interference pattern<LU LEMMA="the interference pattern" CAT="N" FLX="NEUTER_E" Case="loc" Nb="sg">The interference pattern</LU> will
+      spread.
+	  
+	  

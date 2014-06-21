@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test module="m_InterferenceAndCoherence"
+	module_ns="Phisics"
+	uri="TestOfInterferenceAndDiffractionFrenel" 
+	name="Test Of Interference And Diffraction Frenel"
+>
+<task id="1">
+<question>
+Coherence length and time characterize 
+</question>
+<answers>
+<answer right="no">... temporal coherence.</answer>
+<answer right="yes">... spatial coherence.</answer>
+<answer right="no">The first measure characterizes temporal coherence, the second - spatial coherence.</answer>
+<answer right="no">The first measure characterizes spatial coherence, the second - temporal coherence.</answer>
+<answer right="no">No right answer.</answer>
+</answers>
+</task>
+
+<task id="2">
+<question>
+The fringe width in the Young double-slit interferometer ...
+</question>
+<answers>
+<answer right="no">	... depends on the spacing between the light source and the fringes.</answer>
+<answer right="no">	... does not depend on light source wavelength.</answer>
+<answer right="no">	... depends on the spacing between the screens with single and double slit.</answer>
+<answer right="yes">	... does not depend on the position of the observation plane.</answer>
+<answer right="no">	... depends o the spacing between the fringes.</answer>
+<answer right="no">	No right answer</answer>
+</answers>
+</task>
+
+<task id="3">
+<question_img>http://open.ifmo.ru/images/f/fa/2268251_int001.gif</question_img>
+<question>
+The figure shows plane P with light travelling from sources S1 and S2. The fringe width is the spacing between 
+</question>
+<answers>
+<answer right="no">	neighboring high and low intensity peaks.</answer>
+<answer right="no">	neighboring high intensity peaks or low intensity peaks.</answer>
+<answer right="yes"> zero-order maximum and the first intensity minimum.</answer>
+<answer right="no">	zero-order maximum and the point of observation.</answer>
+<answer right="no">	No right answer.</answer>
+</answers>
+</task>
+
+<task id="4">
+<question_img>http://open.ifmo.ru/images/a/a0/2268341_int025.gif</question_img>
+<question>
+The figure shows the interference pattern on the plane P from the Fresnel biprism. Biprism refractive index is n, diffract is α. If α changes slightly, how will the interference pattern alter?
+</question>
+<answers>
+<answer right="no">	The interference pattern will move.</answer>
+<answer right="yes">	The width of the difraction fringe will grow.</answer>
+<answer right="no">	The width of the difraction fringe will reduce.</answer>
+<answer right="no">	The interference pattern will spread.</answer>
+<answer right="no">	No right answer.</answer>
+</answers>
+</task>
+
+<task id="5">
+<question_img>http://open.ifmo.ru/images/2/2e/2268501_int098.gif</question_img>
+<question>
+Choose the right expression for the optical path length (Δ) of the rays reflecting from the glass plane parallel. The impinging light has planar wavefront and wavelength λ. 
+</question>
+<answers>
+<answer right="no">	(Δ) = 2dn tg(β) </answer>
+<answer right="no">	(Δ) = 2dn cos(β) </answer>
+<answer right="no">	(Δ) = 2dn cos(β) + (λ)/2  </answer>
+<answer right="no">	(Δ) = 2dn / cos(β) - d tg(β) </answer>
+<answer right="no">	(Δ) = 2dn / cos(β) + (λ)/2 </answer>
+<answer right="yes">	No right answer.</answer>
+</answers>
+</task>
+
+<task id="6">
+<question_img>http://open.ifmo.ru/images/8/82/2268591_int065.gif</question_img>
+<question>
+What will be the change of the interference pattern of Newton rings if the slot between the lens and the plane is filled by liquid having minor refractive index in respect to the glass refractive index?
+</question>
+<answers>
+<answer right="no">	The interference pattern remains.</answer>
+<answer right="no">	The interference pattern will become inverse.</answer>
+<answer right="no">	Radiuses of the rings will increase.</answer>
+<answer right="yes">	Radiuses of the rings will decrease.</answer>
+<answer right="no">	The will be no interference pattern.</answer>
+<answer right="no">	No right answer.</answer>
+</answers>
+</task>
+
+<task id="7">
+<question_img>http://open.ifmo.ru/images/0/08/2268271_int005.gif</question_img>
+<question>
+Two coherent light sources having wavelength λ = 600 nm are placed into two media: carbon disulphide (n1 = 1.665) and bromoform (n2 = 1.6665). A ray travels to point A on the screen in time t1 = 1.110·10-10 sec from the source S1 and in time t2 = 1.111·10-10 sec from the source S2. What is the path difference (Δ) and interference order (k) in A? 
+</question>
+<answers>
+<answer right="no">	Δ = 50 λ; k = 25.</answer>
+<answer right="no">	Δ = 50 λ; k = 50.</answer>
+<answer right="no">	Δ = 25 λ; k = 50. </answer>
+<answer right="no">	Δ = 100 λ; k = 50. </answer>
+<answer right="yes">	Δ = 100 λ; k = 100.</answer>
+<answer right="no">	No right answer.</answer>
+</answers>
+</task>
+
+<task id="8">
+<question_img>http://open.ifmo.ru/images/3/31/2268451_int019.gif</question_img>
+<question>
+In Young experiment a thin glass plane is set at the path of the ray  d2, that results in biasing of the central band to the position initially taken by the 5th light interference band. Radiating wavelength is 600 nm, plane refractive index n = 1,5. What is the thickness of the plane?
+</question>
+<answers>
+<answer right="yes"> 8,4 </answer>
+<answer right="no">	7,2 </answer>
+<answer right="no">	6,0 </answer>
+<answer right="no">	4,8 </answer>
+<answer right="no">	3,6 </answer>
+<answer right="no">	No right answer.</answer>
+</answers>
+</task>
+
+<task id="9">
+<question_img>http://open.ifmo.ru/images/5/5d/2268771_dif11p.gif</question_img>
+<question>
+A monochromatic light source throws light to the screen with an aperture. Fresnel diffraction by a round aperture is observed on the 2nd screen. Choose all possible numbers of the observed pattern given an odd number of Fresnel zones open.
+</question>
+<answers>
+<answer right="no">	1 </answer>
+<answer right="yes"> 2 </answer>
+<answer right="no">	3 </answer>
+<answer right="no">	4 </answer>
+<answer right="no">	5 </answer>
+<answer right="no">	No right answer.</answer>
+</answers>
+</task>
+
+<task id="10">
+<question_img>http://open.ifmo.ru/images/8/89/2268831_dif22p.gif</question_img>
+<question>
+Light from the source S diffracts by a round aperture D. Choose the vectors on the phase diagram corresponding to the amplitudes in point P given 1)  the aperture covers up to 5 initial zones; 2) the screen with an aperture is replaced by a disk having the same diameter; 3) there is no screen.
+</question>
+<answers>
+<answer right="no">	1) ВС; 2) АВ; 3) АС.</answer>
+<answer right="no">	1) АС; 2) АВ; 3) ВС.</answer>
+<answer right="no">	1) АВ; 2) ВС; 3) АС.</answer>
+<answer right="yes"> The vectors on the phase diagram do not meet given conditions.</answer>
+<answer right="no">	No right answer.</answer>
+</answers>
+</task>
+
+<task id="11">
+<question_img>http://open.ifmo.ru/images/3/3e/2268901_dif18p.gif</question_img>
+<question>
+A point monochromatic source throws light to an opaque disk D. A light spot (Poisson spot) is observed on the screen P in the centre of the geometric shadow. Select all true statements about this spot.
+</question>
+<answers>
+<answer right="no">	The spot appears only when the disc overlaps an odd number of Fresnel zones.</answer>
+<answer right="no">	The spot appears only when the disc overlaps an even number of Fresnel zones.</answer>
+<answer right="no">	The spot appears only when the disc overlaps any number of Fresnel zones.</answer>
+<answer right="yes"> If D increases, the spot becomes more narrow and hueless.</answer>
+<answer right="no">	If L decreases, the spot becomes more narrow and hueless.</answer>
+</answers>
+</task>
+
+<task id="12">
+<question_img>http://open.ifmo.ru/images/0/07/2268851_dif30p.gif</question_img>
+<question>
+A screen with a changeable aperture is set between a point source S and a point of observance P. Amplitude in P corresponds to the vector AB1 if the radius of the aperture is R. If the amplitude now corresponds to the vector AB2, what is the change of R?
+</question>
+<answers>
+<answer right="no">	R decreased by 1.29 times.</answer>
+<answer right="yes"> R increased by 1.29 times.</answer>
+<answer right="no">	R increased by 1.67 times.</answer>
+<answer right="no">	R decreased by 1.73 times.</answer>
+<answer right="no">	R increased by 1.73 times.</answer>
+<answer right="no">	No right answer.</answer>
+</answers>
+</task>
+
+<task id="13">
+<question_img>http://open.ifmo.ru/images/9/91/2268411_int045.gif</question_img>
+<question>
+The image of a point monochromatic source S is created by a lens L (having focal distance f) in point A. The lens has been cut in half and expanded at the distance h. What distance d enabling the interferencec pattern observance should be set?
+</question>
+<answers>
+<answer right="no">	d &lt; f</answer>
+<answer right="yes"> d &gt; f</answer>
+<answer right="no">	2·f &gt; d &gt; f</answer>
+<answer right="no">	d &gt; 2·f/h</answer>
+<answer right="no">	d &lt; 2·h/f</answer>
+<answer right="no">	No right answer.</answer>
+</answers>
+</task>
+
+<task id="14">
+<question_img>http://open.ifmo.ru/images/0/0f/2268471_int008.gif</question_img>
+<question>
+A ray emitted by the light source S hits the Michelson interferometer. It is divided in half by the beam splitter. The rays unit on the screen P. Path difference of the interfering rays is:
+</question>
+<answers>
+<answer right="no">	SOM1 - OM1 </answer>
+<answer right="no">	OM1 - SOM2 </answer>
+<answer right="no">	2·(OM1 - OM2) </answer>
+<answer right="no">	2·(OM1 - OP) </answer>
+<answer right="no">	OM1 - OM2 </answer>
+<answer right="yes"> No right answer. </answer>
+</answers>
+</task>
+
+<task id="15">
+<question_img>http://open.ifmo.ru/images/1/12/2268691_int087.gif</question_img>
+<question>
+The interference fringes are observed in the air wedge made in the travelling light of two glass planes and a wire clamped between them. Find the wire diameter if wavelength is 550 nm, h = 3 sm, interference pattern pitch is 0.05 mm.
+</question>
+<answers>
+<answer right="no">	0.495 mm</answer>
+<answer right="no">	0.33 mm</answer>
+<answer right="no">	0.165 mm</answer>
+<answer right="yes">0.0825 mm</answer>
+<answer right="no">	0.0415 mm</answer>
+<answer right="no">	No right answer.</answer>
+</answers>
+</task>
+
+<task id="16">
+<question_img>http://open.ifmo.ru/images/a/ad/2268751_int091.gif</question_img>
+<question>
+Point A on the screen marks the Nth interference ring from the point monochromatic source throwing light to the plane parallel glass. How a) increase of d; b) decrease of d will influence the number of the ring in point A? 
+</question>
+<answers>
+<answer right="no">	Diameters of the rings do not depend on d and n. </answer>
+<answer right="yes">Both cases result in decrease of N. </answer>
+<answer right="no">	Both cases result in increase of N. </answer>
+<answer right="no">	а) will descrease; b) will increase. </answer>
+<answer right="no">	а) will increase; b) will descrease.</answer>
+<answer right="no">	No right answer.</answer>
+</answers>
+</task>
+
+<task id="17">
+<question_img>http://open.ifmo.ru/images/9/95/2268961_dif38p.gif</question_img>
+<question>
+A plane monochromatic lightwave normally falls on a screen with a round aperture D. The aperture diameter decreases by N times. Calculate the new distance b, which will produce the same diffraction pattern decreased by N times. 
+</question>
+<answers>
+<answer right="no">	b/N2</answer>
+<answer right="no">	b · N2</answer>
+<answer right="no">	b · N</answer>
+<answer right="yes"> b/N </answer>
+<answer right="no">	b </answer>
+<answer right="no">	No right answer.</answer>
+</answers>
+</task>
+
+<task id="18">
+<question_img>http://open.ifmo.ru/images/7/79/2268861_dif32.gif</question_img>
+<question>
+A plane monochromatic lightwave (distance a is large, λ = 400 nm) having intensity J0 falls normally on the round aperture with diameter D = 2.0 mm. The interference pattern is on the screen placed at the distance b = 2 m. One of the vectors shown on the vector diagram is corresponding to the amplitude in P (the centre of the screen). Mark the number of the vector, corresponding to a given aperture.
+</question>
+<answers>
+<answer right="no">	1 </answer>
+<answer right="yes"> 2 </answer>
+<answer right="no">	3 </answer>
+<answer right="no">	4 </answer>
+<answer right="no">	5 </answer>
+<answer right="no">	No right answer.</answer>
+</answers>
+</task>
+
+<task id="19">
+<question_img>http://open.ifmo.ru/images/a/a8/2270431_int072p.gif</question_img>
+<question>
+An interference pattern is observed in the reflected light in the following system: a convexo-plane lens (n1 = 1.69) is enclosed into a concave-plane lens (n2 = 1.63), the space between them is filled with benzene. Mark the number of the right condition for emerging of dark rings. The left part of the formula should contain expression for the optical path difference of the interfering rays.
+</question>
+<answers>
+<answer right="no">	1 </answer>
+<answer right="no">	2 </answer>
+<answer right="no">	3 </answer>
+<answer right="no">	4 </answer>
+<answer right="yes"> 5 </answer>
+<answer right="no">	There is no right expression. </answer>
+<answer right="no">	No right answer.</answer>
+</answers>
+</task>
+
+<task id="20">
+<question_img>http://open.ifmo.ru/images/3/3e/2268901_dif18p.gif</question_img>
+<question>
+A disc D having diameter 0.5 sm and roughnesses of 10 mkm is placed at 1 m distance from a point source S (λ = 0.5 mkm). Assuming that Poisson light can be observed until roughnesses overlap the Fresnel zone not exceeding 1/4, find the minimal distance L (in meters), when Poisson spot can be observed.
+</question>
+<answers type="edittext" right="10"/>
+</task>
+</test>
+
+

@@ -1,0 +1,7 @@
+ <img src="http://open.ifmo.ru/images/8/89/2268831_dif22p.gif"/> Light<LU LEMMA="light" CAT="N" FLX="NEUTER_E" Case="loc" Nb="sg">Light</LU> from the source S diffracts by a round aperture <LU LEMMA="diffraction" CAT="N" FLX="NEUTER_E" Case="loc" Nb="sg">Diffraction</LU>
+    D. Choose the vectors on the phase diagram corresponding to the
+    amplitudes in point P given 1) the aperture covers up to 5 
+    initial zones; 2) the screen with an aperture is replaced by a
+    disk having the same diameter; 3) there is no
+    screen.  No right answer. 1) ÐÐ¡; 2) ÐÐ; 3) ÐÐ¡. 1) ÐÐ¡; 2) ÐÐ; 3) ÐÐ¡. 1) ÐÐ; 2) ÐÐ¡; 3) ÐÐ¡. The vectors on the phase diagram do not
+      meet given conditions.

@@ -1,0 +1,8 @@
+ <img src="http://open.ifmo.ru/images/8/82/2268591_int065.gif"/> What will be the change of the interference pattern <LU LEMMA="the interference pattern" CAT="N" FLX="NEUTER_E" Case="loc" Nb="sg">The interference pattern</LU>
+    of Newton rings if the slot between the lens and the plane is <LU LEMMA="newton's rings" CAT="N" FLX="NEUTER_E" Case="loc" Nb="sg">Newton's Rings</LU>
+    filled by liquid having minor refractive index in respect to
+    the glass refractive index?  No right answer. Radiuses of the rings will
+      decrease. The interference pattern remains. The interference pattern will become
+      inverse. Radiuses of the rings will
+      increase. The will be no interference
+      pattern.

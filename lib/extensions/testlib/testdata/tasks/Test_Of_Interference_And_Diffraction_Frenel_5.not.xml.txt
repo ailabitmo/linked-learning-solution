@@ -1,0 +1,4 @@
+ <img src="http://open.ifmo.ru/images/2/2e/2268501_int098.gif"/> Choose the right expression for the optical path
+    length (Î) of the rays reflecting from the glass plane 
+    parallel. The impinging light has planar wavefront and <LU LEMMA="wavefront" CAT="N" FLX="NEUTER_E" Case="loc" Nb="sg">Wavefront</LU>
+    wavelength Î».  No right answer. (Î) = 2dn tg(Î²) (Î) = 2dn cos(Î²) (Î) = 2dn cos(Î²) + (Î»)/2 (Î) = 2dn / cos(Î²) - d tg(Î²) (Î) = 2dn / cos(Î²) + (Î»)/2

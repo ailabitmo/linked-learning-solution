@@ -1,0 +1,17 @@
+{{#sparql: SELECT  ?label WHERE {
+   OPTIONAL {?? rdfs:label ?label . FILTER (langMatches(lang(?label), "ru")) } 
+   OPTIONAL {?? rdfs:label ?label } } 
+ | format=template
+ | template=Template:TitleTemplate
+}}
+
+== Задания ==
+{{#widget: QueryResult | 
+ hideIfEmpty = true
+ | query = 'SELECT ?task
+WHERE { 
+?? ifmotest:hasTask ?task .
+ }'
+  | format = 'UL'
+  | asynch = true
+}}

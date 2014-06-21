@@ -1,0 +1,7 @@
+ <img src="http://open.ifmo.ru/images/7/79/2268861_dif32.gif"/> A plane monochromatic lightwave (distance a is large,
+    Î» = 400 nm) having intensity J0 falls normally on the round
+    aperture with diameter D = 2.0 mm. The interference pattern is
+    on the screen placed at the distance b = 2 m. One of the
+    vectors shown on the vector diagram is corresponding to the
+    amplitude in P (the centre of the screen). Mark the number of
+    the vector, corresponding to a given aperture.  1 2 3 4 5 No right answer.

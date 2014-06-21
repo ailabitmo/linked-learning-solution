@@ -1,0 +1,5 @@
+ <img src="http://open.ifmo.ru/images/9/91/2268411_int045.gif"/> The image of a point monochromatic source S is
+    created by a lens L (having focal distance f) in point A. The
+    lens has been cut in half and expanded at the distance h. What
+    distance d enabling the interferencec pattern observance should
+    be set?  d < f d > f No right answer. 2Â·f > d > f d > 2Â·f/h d < 2Â·h/f

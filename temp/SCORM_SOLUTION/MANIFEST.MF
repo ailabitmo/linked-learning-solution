@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.8.4
+Created-By: 1.7.0_55-b13 (Oracle Corporation)
+project: SCORM_SOLUTION
+ProductName: SCORM_SOLUTION
+ProductLongName: SCORM_SOLUTION for Information Workbench
+ProductVersion: 0.1
+version: 0.1
+ProductContact: n/a
+CompanyName: n/a
+date: 2014-05-20_10:56:27
+

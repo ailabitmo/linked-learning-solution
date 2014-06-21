@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/SCORM_SOLUTION"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<mapAttribute key="org.eclipse.debug.core.environmentVariables">
+<mapEntry key="com.fluidops.logging.env" value="debug"/>
+</mapAttribute>
+<listAttribute key="org.eclipse.debug.ui.favoriteGroups">
+<listEntry value="org.eclipse.debug.ui.launchGroup.debug"/>
+<listEntry value="org.eclipse.debug.ui.launchGroup.run"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.fluidops.iwb.IwbStart"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="SCORM_SOLUTION"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Xmx2048m -Xms512m -XX:PermSize=256m -Dfile.encoding=UTF-8"/>
+<stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="D:\Development\IWB-SCORM\fiwb"/>
+</launchConfiguration>
+

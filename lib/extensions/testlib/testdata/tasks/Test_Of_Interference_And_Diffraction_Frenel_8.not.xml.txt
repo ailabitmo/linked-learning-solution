@@ -1,0 +1,5 @@
+ <img src="http://open.ifmo.ru/images/3/31/2268451_int019.gif"/> In Young experiment a thin glass plane is set at the
+    path of the ray d2, that results in biasing of the central band
+    to the position initially taken by the 5th light interference <LU LEMMA="interference" CAT="N" FLX="NEUTER_E" Case="loc" Nb="sg">interference</LU>
+    band. Radiating wavelength is 600 nm, plane refractive index n <LU LEMMA="wavelength" CAT="N" FLX="NEUTER_E" Case="loc" Nb="sg">Wavelength</LU>
+    = 1,5. What is the thickness of the plane?  8,4 7,2 6,0 4,8 3,6 No right answer.
