@@ -1,10 +1,13 @@
- <img src="http://open.ifmo.ru/images/a/a0/2268341_int025.gif"/> The figure shows the interference pattern on the
-    plane P from the Fresnel biprism. Biprism refractive index is <LU LEMMA="interference" CAT="N" FLX="NEUTER_E" Case="loc" Nb="sg">interference</LU>
-    n, diffract is Î±. If Î± changes slightly, how will the
-    interference pattern alter?  No right answer. The interference pattern will
-      move. The width of the difraction fringe will  <LU LEMMA="diffraction" CAT="N" FLX="NEUTER_E" Case="loc" Nb="sg">Diffraction</LU>
-      grow. The width of the difraction fringe will
-      reduce. The interference pattern<LU LEMMA="the interference pattern" CAT="N" FLX="NEUTER_E" Case="loc" Nb="sg">The interference pattern</LU> will
-      spread.
-	  
-	  
+﻿
+<task>
+<question_img>http://<LU LEMMA="open" CAT="A">open</LU>.ifmo.ru/<LU LEMMA="image" CAT="N" FLX="TABLE" Nb="p">images</LU>/a/a0/2268341_int025.gif</question_img>
+<question>
+The figure shows the <LU LEMMA="interference" CAT="N" FLX="TABLE" Nb="s">interference</LU> <LU LEMMA="pattern" CAT="N" FLX="TABLE" Nb="s">pattern</LU> on the <LU LEMMA="plane" CAT="N" FLX="TABLE" Nb="s">plane</LU> P from the <LU LEMMA="Fresnel" CAT="N" DRV="POSESSIVE" FLX="TABLE" TYPE="Prop" Nb="s">Fresnel</LU> <LU LEMMA="biprism" CAT="N" FLX="TABLE" Nb="s">biprism</LU>. <LU LEMMA="biprism" CAT="N" FLX="TABLE" Nb="s">Biprism</LU> <LU LEMMA="refractive" CAT="A">refractive</LU> index is n, diffract is α. If α <LU LEMMA="change" CAT="N" FLX="TABLE" Nb="p">changes</LU> slightly, how will the <LU LEMMA="interference" CAT="N" FLX="TABLE" Nb="s">interference</LU> <LU LEMMA="pattern" CAT="N" FLX="TABLE" Nb="s">pattern</LU> alter?
+</question>
+<answers>
+<answer right="no">	The <LU LEMMA="interference" CAT="N" FLX="TABLE" Nb="s">interference</LU> <LU LEMMA="pattern" CAT="N" FLX="TABLE" Nb="s">pattern</LU> will move.</answer>
+<answer right="yes">The <LU LEMMA="width" CAT="N" FLX="TABLE" Nb="s">width</LU> of the <LU LEMMA="interference" CAT="N" FLX="TABLE" Nb="s">interference</LU> <LU LEMMA="fringe" CAT="N" FLX="TABLE" Nb="s">fringe</LU> will grow.</answer>
+<answer right="no">	The <LU LEMMA="width" CAT="N" FLX="TABLE" Nb="s">width</LU> of the <LU LEMMA="interference" CAT="N" FLX="TABLE" Nb="s">interference</LU> <LU LEMMA="fringe" CAT="N" FLX="TABLE" Nb="s">fringe</LU> will reduce.</answer>
+<answer right="no">	The <LU LEMMA="interference" CAT="N" FLX="TABLE" Nb="s">interference</LU> <LU LEMMA="pattern" CAT="N" FLX="TABLE" Nb="s">pattern</LU> will spread.</answer>
+<answer right="no">	No right answer.</answer>
+</answers>

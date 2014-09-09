@@ -1,7 +1,6 @@
- <img src="http://open.ifmo.ru/images/f/fa/2268251_int001.gif"/> The figure shows plane P with light travelling from
-    sources S1 and S2. The fringe width is the spacing<LU LEMMA="fringes" CAT="N" FLX="NEUTER_E" Case="loc" Nb="sg">fringe</LU>
-    between  No right answer. neighboring high and low intensity
-      peaks. neighboring high intensity peaks or low
-      intensity peaks. zero-order maximum and the first
-      intensity minimum. zero-order maximum and the point of
-      observation.
+http://<LU LEMMA="open" CAT="A">open</LU>.ifmo.ru/<LU LEMMA="image" CAT="N" FLX="TABLE" Nb="p">images</LU>/f/fa/2268251_int001.gif</question_img>
+The figure shows <LU LEMMA="plane" CAT="N" FLX="TABLE" Nb="s">plane</LU> P with <LU LEMMA="light" CAT="N" FLX="TABLE" Nb="s">light</LU> travelling from <LU LEMMA="source" CAT="N" FLX="TABLE" Nb="p">sources</LU> S1 and S2. The <LU LEMMA="fringe" CAT="N" FLX="TABLE" Nb="s">fringe</LU> <LU LEMMA="width" CAT="N" FLX="TABLE" Nb="s">width</LU> is the <LU LEMMA="spacing" CAT="N" FLX="TABLE" Nb="s">spacing</LU> between... 
+neighboring high and <LU LEMMA="low" CAT="A">low</LU> <LU LEMMA="intensity" CAT="N" FLX="TABLE" Nb="s">intensity</LU> <LU LEMMA="peaks" CAT="N" FLX="TABLE" Nb="s">peaks</LU>.
+neighboring high <LU LEMMA="intensity" CAT="N" FLX="TABLE" Nb="s">intensity</LU> <LU LEMMA="peaks" CAT="N" FLX="TABLE" Nb="s">peaks</LU> or <LU LEMMA="low" CAT="A">low</LU> <LU LEMMA="intensity" CAT="N" FLX="TABLE" Nb="s">intensity</LU> <LU LEMMA="peaks" CAT="N" FLX="TABLE" Nb="s">peaks</LU>.
+zero-<LU LEMMA="order" CAT="N" FLX="TABLE" Nb="s">order</LU> <LU LEMMA="maximum" CAT="N" FLX="TABLE" Nb="s">maximum</LU> and the first <LU LEMMA="intensity" CAT="N" FLX="TABLE" Nb="s">intensity</LU> <LU LEMMA="minimum" CAT="N" FLX="TABLE" Nb="s">minimum</LU>.
+zero-<LU LEMMA="order" CAT="N" FLX="TABLE" Nb="s">order</LU> <LU LEMMA="maximum" CAT="N" FLX="TABLE" Nb="s">maximum</LU> and the <LU LEMMA="point" CAT="A">point</LU> of <LU LEMMA="observation" CAT="N" FLX="TABLE" Nb="s">observation</LU>.

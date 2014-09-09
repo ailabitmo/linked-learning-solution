@@ -1,4 +1,15 @@
- <img src="http://open.ifmo.ru/images/2/2e/2268501_int098.gif"/> Choose the right expression for the optical path
-    length (Î) of the rays reflecting from the glass plane 
-    parallel. The impinging light has planar wavefront and <LU LEMMA="wavefront" CAT="N" FLX="NEUTER_E" Case="loc" Nb="sg">Wavefront</LU>
-    wavelength Î».  No right answer. (Î) = 2dn tg(Î²) (Î) = 2dn cos(Î²) (Î) = 2dn cos(Î²) + (Î»)/2 (Î) = 2dn / cos(Î²) - d tg(Î²) (Î) = 2dn / cos(Î²) + (Î»)/2
+﻿
+
+<task>
+<question_img>http://<LU LEMMA="open" CAT="A">open</LU>.ifmo.ru/<LU LEMMA="image" CAT="N" FLX="TABLE" Nb="p">images</LU>/2/2e/2268501_int098.gif</question_img>
+<question>
+Choose the right <LU LEMMA="expression" CAT="N" FLX="TABLE" Nb="s">expression</LU> for the <LU LEMMA="optical" CAT="A">optical</LU> <LU LEMMA="path" CAT="N" FLX="TABLE" Nb="s">path</LU> <LU LEMMA="length" CAT="N" FLX="CLOTH" Nb="s">length</LU> (Δ) of the <LU LEMMA="ray" CAT="N" FLX="TABLE" Nb="p">rays</LU> <LU LEMMA="reflecting" CAT="A">reflecting</LU> from the <LU LEMMA="glass" CAT="N" FLX="TABLE" Nb="s">glass</LU> <LU LEMMA="plane" CAT="N" FLX="TABLE" Nb="s">plane</LU> <LU LEMMA="parallel" CAT="A">parallel</LU>. The <LU LEMMA="impinging" CAT="A">impinging</LU> <LU LEMMA="light" CAT="N" FLX="TABLE" Nb="s">light</LU> has <LU LEMMA="planar" CAT="A">planar</LU> <LU LEMMA="wavefront" CAT="N" FLX="TABLE" Nb="s">wavefront</LU> and <LU LEMMA="wavelength" CAT="N" FLX="TABLE" Nb="s">wavelength</LU> λ. 
+</question>
+<answers>
+<answer right="no">	(Δ) = 2dn tg(β) </answer>
+<answer right="no">	(Δ) = 2dn cos(β) </answer>
+<answer right="no">	(Δ) = 2dn cos(β) + (λ)/2  </answer>
+<answer right="no">	(Δ) = 2dn / cos(β) - d tg(β) </answer>
+<answer right="no">	(Δ) = 2dn / cos(β) + (λ)/2 </answer>
+<answer right="yes">No right answer.</answer>
+</answers>

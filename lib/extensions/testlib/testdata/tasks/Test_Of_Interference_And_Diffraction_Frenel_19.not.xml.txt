@@ -1,7 +1,16 @@
- <img src="http://open.ifmo.ru/images/a/a8/2270431_int072p.gif"/> An interference pattern is observed in the reflected
-    light in the following system: a convexo-plane lens (n1 = 1.69)
-    is enclosed into a concave-plane lens (n2 = 1.63), the space
-    between them is filled with benzene. Mark the number of the
-    right condition for emerging of dark rings. The left part of
-    the formula should contain expression for the optical path
-    difference of the interfering rays.  1 2 3 4 5 No right answer. There is no right expression.
+
+
+<task>
+<question_img>http://<LU LEMMA="open" CAT="A">open</LU>.ifmo.ru/<LU LEMMA="image" CAT="N" FLX="TABLE" Nb="p">images</LU>/a/a8/2270431_int072p.gif</question_img>
+<question>
+An <LU LEMMA="interference" CAT="N" FLX="TABLE" Nb="s">interference</LU> <LU LEMMA="pattern" CAT="N" FLX="TABLE" Nb="s">pattern</LU> is observed in the reflected <LU LEMMA="light" CAT="N" FLX="TABLE" Nb="s">light</LU> in the following <LU LEMMA="system" CAT="N" FLX="TABLE" Nb="s">system</LU>: a <LU LEMMA="convexo" CAT="A">convexo</LU>-<LU LEMMA="plane" CAT="N" FLX="TABLE" Nb="s">plane</LU> <LU LEMMA="lens" CAT="N" FLX="TABLE" Nb="s">lens</LU> (n1 = 1.69) is enclosed into a concave-<LU LEMMA="plane" CAT="N" FLX="TABLE" Nb="s">plane</LU> <LU LEMMA="lens" CAT="N" FLX="TABLE" Nb="s">lens</LU> (n2 = 1.63), the <LU LEMMA="space" CAT="N" FLX="TABLE" Nb="s">space</LU> between them is filled with benzene. Mark the <LU LEMMA="number" CAT="N" FLX="TABLE" Nb="s">number</LU> of the right condition for emerging of dark <LU LEMMA="ring" CAT="N" FLX="TABLE" Nb="p">rings</LU>. The <LU LEMMA="left" CAT="A">left</LU> <LU LEMMA="part" CAT="N" FLX="TABLE" Nb="s">part</LU> of the formula should contain <LU LEMMA="expression" CAT="N" FLX="TABLE" Nb="s">expression</LU> for the <LU LEMMA="optical" CAT="A">optical</LU> <LU LEMMA="path" CAT="N" FLX="TABLE" Nb="s">path</LU> difference of the <LU LEMMA="interfering" CAT="A">interfering</LU> <LU LEMMA="ray" CAT="N" FLX="TABLE" Nb="p">rays</LU>.
+</question>
+<answers>
+<answer right="no">	1 </answer>
+<answer right="no">	2 </answer>
+<answer right="no">	3 </answer>
+<answer right="no">	4 </answer>
+<answer right="yes">	5 </answer>
+<answer right="no">	There is no right <LU LEMMA="expression" CAT="N" FLX="TABLE" Nb="s">expression</LU>. </answer>
+<answer right="no">	No right answer.</answer>
+</answers>

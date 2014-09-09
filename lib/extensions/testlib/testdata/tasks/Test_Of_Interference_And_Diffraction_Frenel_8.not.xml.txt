@@ -1,5 +1,15 @@
- <img src="http://open.ifmo.ru/images/3/31/2268451_int019.gif"/> In Young experiment a thin glass plane is set at the
-    path of the ray d2, that results in biasing of the central band
-    to the position initially taken by the 5th light interference <LU LEMMA="interference" CAT="N" FLX="NEUTER_E" Case="loc" Nb="sg">interference</LU>
-    band. Radiating wavelength is 600 nm, plane refractive index n <LU LEMMA="wavelength" CAT="N" FLX="NEUTER_E" Case="loc" Nb="sg">Wavelength</LU>
-    = 1,5. What is the thickness of the plane?  8,4 7,2 6,0 4,8 3,6 No right answer.
+
+
+<task>
+<question_img>http://<LU LEMMA="open" CAT="A">open</LU>.ifmo.ru/<LU LEMMA="image" CAT="N" FLX="TABLE" Nb="p">images</LU>/3/31/2268451_int019.gif</question_img>
+<question>
+In the <LU LEMMA="Young" CAT="N" DRV="POSESSIVE" FLX="TABLE" TYPE="Prop" Nb="s">Young</LU>'s <LU LEMMA="experiment" CAT="N" FLX="TABLE" Nb="s">experiment</LU> a thin <LU LEMMA="glass" CAT="N" FLX="TABLE" Nb="s">glass</LU> <LU LEMMA="plane" CAT="N" FLX="TABLE" Nb="s">plane</LU> is set at the <LU LEMMA="path" CAT="N" FLX="TABLE" Nb="s">path</LU> of the <LU LEMMA="ray" CAT="N" FLX="TABLE" Nb="s">ray</LU>  d2, that results in biasing of the <LU LEMMA="central" CAT="A">central</LU> <LU LEMMA="band" CAT="N" FLX="TABLE" Nb="s">band</LU> to the <LU LEMMA="position" CAT="N" FLX="TABLE" Nb="s">position</LU> initially taken by the 5th <LU LEMMA="light" CAT="N" FLX="TABLE" Nb="s">light</LU> <LU LEMMA="interference" CAT="N" FLX="TABLE" Nb="s">interference</LU> <LU LEMMA="fringe" CAT="N" FLX="TABLE" Nb="s">fringe</LU>. Radiating <LU LEMMA="wavelength" CAT="N" FLX="TABLE" Nb="s">wavelength</LU> is 600 nm, <LU LEMMA="plane" CAT="N" FLX="TABLE" Nb="s">plane</LU> <LU LEMMA="refractive" CAT="A">refractive</LU> index n = 1,5. What is the <LU LEMMA="thickness" CAT="N" FLX="TABLE" Nb="s">thickness</LU> of the <LU LEMMA="plane" CAT="N" FLX="TABLE" Nb="s">plane</LU> (in mm)?
+</question>
+<answers>
+<answer right="yes">8,4 </answer>
+<answer right="no">	7,2 </answer>
+<answer right="no">	6,0 </answer>
+<answer right="no">	4,8 </answer>
+<answer right="no">	3,6 </answer>
+<answer right="no">	No right answer.</answer>
+</answers>

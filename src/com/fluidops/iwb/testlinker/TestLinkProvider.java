@@ -49,8 +49,8 @@ public class TestLinkProvider extends AbstractFlexProvider<TestLinkProvider.Conf
 	private static final String hasTerm="http://www.semanticweb.org/k0shk/ontologies/2013/5/learning#hasTerm";
 	
 	private static final String tasksQuery="select distinct ?task where {\r\n" + 
-			"   {  Phisics:Physics learningRu:hasModule ?module } \r\n" + 
-			"      UNION { ?module learningRu:isModuleOf  Phisics:Physics }\r\n" + 
+			"   {  ?? learningRu:hasModule ?module } \r\n" + 
+			"      UNION { ?module learningRu:isModuleOf  ?? }\r\n" + 
 			"   \r\n" + 
 			"    { ?module learningRu:hasTest ?test } \r\n" + 
 			"   UNION { ?test learningRu:isTestOf ?module }.\r\n" + 

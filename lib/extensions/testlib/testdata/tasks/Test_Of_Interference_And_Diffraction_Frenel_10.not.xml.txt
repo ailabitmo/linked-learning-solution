@@ -1,7 +1,14 @@
- <img src="http://open.ifmo.ru/images/8/89/2268831_dif22p.gif"/> Light<LU LEMMA="light" CAT="N" FLX="NEUTER_E" Case="loc" Nb="sg">Light</LU> from the source S diffracts by a round aperture <LU LEMMA="diffraction" CAT="N" FLX="NEUTER_E" Case="loc" Nb="sg">Diffraction</LU>
-    D. Choose the vectors on the phase diagram corresponding to the
-    amplitudes in point P given 1) the aperture covers up to 5 
-    initial zones; 2) the screen with an aperture is replaced by a
-    disk having the same diameter; 3) there is no
-    screen.  No right answer. 1) ÐÐ¡; 2) ÐÐ; 3) ÐÐ¡. 1) ÐÐ¡; 2) ÐÐ; 3) ÐÐ¡. 1) ÐÐ; 2) ÐÐ¡; 3) ÐÐ¡. The vectors on the phase diagram do not
-      meet given conditions.
+﻿
+
+<task>
+<question_img>http://<LU LEMMA="open" CAT="A">open</LU>.ifmo.ru/<LU LEMMA="image" CAT="N" FLX="TABLE" Nb="p">images</LU>/8/89/2268831_dif22p.gif</question_img>
+<question>
+<LU LEMMA="light" CAT="N" FLX="TABLE" Nb="s">Light</LU> from the <LU LEMMA="source" CAT="N" FLX="TABLE" Nb="s">source</LU> S diffracts by a <LU LEMMA="round" CAT="A">round</LU> <LU LEMMA="aperture" CAT="N" FLX="TABLE" Nb="s">aperture</LU> D. Choose the <LU LEMMA="vector" CAT="N" FLX="TABLE" Nb="p">vectors</LU> on the <LU LEMMA="phase" CAT="N" FLX="TABLE" Nb="s">phase</LU> <LU LEMMA="diagram" CAT="N" FLX="TABLE" Nb="s">diagram</LU> corresponding to the <LU LEMMA="amplitude" CAT="N" FLX="TABLE" Nb="p">amplitudes</LU> in <LU LEMMA="point" CAT="A">point</LU> P given 1)  the <LU LEMMA="aperture" CAT="N" FLX="TABLE" Nb="s">aperture</LU> covers up to 5 initial <LU LEMMA="zone" CAT="N" FLX="TABLE" Nb="p">zones</LU>; 2) the <LU LEMMA="screen" CAT="N" FLX="TABLE" Nb="s">screen</LU> with an <LU LEMMA="aperture" CAT="N" FLX="TABLE" Nb="s">aperture</LU> is replaced by a <LU LEMMA="disc" CAT="N" FLX="TABLE" Nb="s">disk</LU> having the same <LU LEMMA="diameter" CAT="N" FLX="TABLE" Nb="s">diameter</LU>; 3) there is no <LU LEMMA="screen" CAT="N" FLX="TABLE" Nb="s">screen</LU>.
+</question>
+<answers>
+<answer right="no">	1) ВС; 2) АВ; 3) АС.</answer>
+<answer right="no">	1) АС; 2) АВ; 3) ВС.</answer>
+<answer right="no">	1) АВ; 2) ВС; 3) АС.</answer>
+<answer right="yes">The <LU LEMMA="vector" CAT="N" FLX="TABLE" Nb="p">vectors</LU> on the <LU LEMMA="phase" CAT="N" FLX="TABLE" Nb="s">phase</LU> <LU LEMMA="diagram" CAT="N" FLX="TABLE" Nb="s">diagram</LU> do not meet given conditions.</answer>
+<answer right="no">	No right answer.</answer>
+</answers>

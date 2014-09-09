@@ -1,9 +1,15 @@
- <img src="http://open.ifmo.ru/images/a/ad/2268751_int091.gif"/> Point A on the screen marks the Nth interference ring
-    from the point monochromatic source throwing light to the plane
-    parallel glass. How a) increase of d; b) decrease of d will
-    influence the number of the ring in point A?  No right answer. Ð°) will descrease; b) will
-      increase. Ð°) will increase; b) will
-      descrease. Diameters of the rings do not depend on d
-      and n. Both cases result in decrease of
-      N. Both cases result in increase of
-      N.
+﻿
+
+<task>
+<question_img>http://<LU LEMMA="open" CAT="A">open</LU>.ifmo.ru/<LU LEMMA="image" CAT="N" FLX="TABLE" Nb="p">images</LU>/a/ad/2268751_int091.gif</question_img>
+<question>
+<LU LEMMA="point" CAT="A">Point</LU> A on the <LU LEMMA="screen" CAT="N" FLX="TABLE" Nb="s">screen</LU> marks the Nth <LU LEMMA="interference" CAT="N" FLX="TABLE" Nb="s">interference</LU> <LU LEMMA="ring" CAT="N" FLX="TABLE" Nb="s">ring</LU> from the <LU LEMMA="point" CAT="A">point</LU> <LU LEMMA="monochromatic" CAT="A">monochromatic</LU> <LU LEMMA="source" CAT="N" FLX="TABLE" Nb="s">source</LU> throwing <LU LEMMA="light" CAT="N" FLX="TABLE" Nb="s">light</LU> to the <LU LEMMA="plane" CAT="N" FLX="TABLE" Nb="s">plane</LU> <LU LEMMA="parallel" CAT="A">parallel</LU> <LU LEMMA="glass" CAT="N" FLX="TABLE" Nb="s">glass</LU>. How a) <LU LEMMA="increase" CAT="N" FLX="TABLE" Nb="s">increase</LU> of d; b) <LU LEMMA="decrease" CAT="N" FLX="TABLE" Nb="s">decrease</LU> of d influences the <LU LEMMA="number" CAT="N" FLX="TABLE" Nb="s">number</LU> of the <LU LEMMA="ring" CAT="N" FLX="TABLE" Nb="s">ring</LU> in <LU LEMMA="point" CAT="A">point</LU> A? 
+</question>
+<answers>
+<answer right="no">	<LU LEMMA="diameter" CAT="N" FLX="TABLE" Nb="p">Diameters</LU> of the <LU LEMMA="ring" CAT="N" FLX="TABLE" Nb="p">rings</LU> do not depend on d and n.</answer>
+<answer right="yes">Both cases result in <LU LEMMA="decrease" CAT="N" FLX="TABLE" Nb="s">decrease</LU> of N.</answer>
+<answer right="no">	Both cases result in <LU LEMMA="increase" CAT="N" FLX="TABLE" Nb="s">increase</LU> of N.</answer>
+<answer right="no">	а) will <LU LEMMA="decrease" CAT="N" FLX="TABLE" Nb="s">decrease</LU>; b) will <LU LEMMA="increase" CAT="N" FLX="TABLE" Nb="s">increase</LU>.</answer>
+<answer right="no">	а) will <LU LEMMA="increase" CAT="N" FLX="TABLE" Nb="s">increase</LU>; b) will <LU LEMMA="decrease" CAT="N" FLX="TABLE" Nb="s">decrease</LU>.</answer>
+<answer right="no">	No right answer.</answer>
+</answers>

@@ -1,7 +1,7 @@
- The fringe width in the Young double-slit <LU LEMMA="fringes" CAT="N" FLX="NEUTER_E" Case="loc" Nb="sg">fringe</LU>
-    interferometer ...  ... depends on the spacing between the
-      light source and the fringes. ... does not depend on light source
-      wavelength. ... depends on the spacing between the
-      screens with single and double slit. ... does not depend on the position of
-      the observation plane. ... depends o the spacing between the
-      fringes. No right answer
+The <LU LEMMA="fringe" CAT="N" FLX="TABLE" Nb="s">fringe</LU> <LU LEMMA="width" CAT="N" FLX="TABLE" Nb="s">width</LU> in the <LU LEMMA="Young" CAT="N" DRV="POSESSIVE" FLX="TABLE" TYPE="Prop" Nb="s">Young</LU>'s <LU LEMMA="experiment" CAT="N" FLX="TABLE" Nb="s">experiment</LU> ...
+... depends on the <LU LEMMA="spacing" CAT="N" FLX="TABLE" Nb="s">spacing</LU> between the <LU LEMMA="light" CAT="N" FLX="TABLE" Nb="s">light</LU> <LU LEMMA="source" CAT="N" FLX="TABLE" Nb="s">source</LU> and the <LU LEMMA="fringe" CAT="N" FLX="TABLE" Nb="p">fringes</LU>.
+... does not depend on <LU LEMMA="light" CAT="N" FLX="TABLE" Nb="s">light</LU> <LU LEMMA="source" CAT="N" FLX="TABLE" Nb="s">source</LU> <LU LEMMA="wavelength" CAT="N" FLX="TABLE" Nb="s">wavelength</LU>.
+... depends on the <LU LEMMA="spacing" CAT="N" FLX="TABLE" Nb="s">spacing</LU> between the <LU LEMMA="screen" CAT="N" FLX="TABLE" Nb="p">screens</LU> with <LU LEMMA="single" CAT="A">single</LU> and <LU LEMMA="double" CAT="A">double</LU> <LU LEMMA="slit" CAT="N" FLX="TABLE" Nb="s">slit</LU>.
+... does not depend on the <LU LEMMA="position" CAT="N" FLX="TABLE" Nb="s">position</LU> of the <LU LEMMA="observation" CAT="N" FLX="TABLE" Nb="s">observation</LU> <LU LEMMA="plane" CAT="N" FLX="TABLE" Nb="s">plane</LU>.
+... depends o the <LU LEMMA="spacing" CAT="N" FLX="TABLE" Nb="s">spacing</LU> between the <LU LEMMA="fringe" CAT="N" FLX="TABLE" Nb="p">fringes</LU>.
+No right answer.

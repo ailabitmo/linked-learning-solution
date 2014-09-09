@@ -1,5 +1,15 @@
- <img src="http://open.ifmo.ru/images/1/12/2268691_int087.gif"/> The interference fringes are observed in the air
-    wedge made in the travelling light of two glass planes and a
-    wire clamped between them. Find the wire diameter if wavelength
-    is 550 nm, h = 3 sm, interference pattern pitch is 0.05
-    mm.  No right answer. 0.495 mm 0.33 mm 0.165 mm 0.0825 mm 0.0415 mm
+
+
+<task>
+<question_img>http://<LU LEMMA="open" CAT="A">open</LU>.ifmo.ru/<LU LEMMA="image" CAT="N" FLX="TABLE" Nb="p">images</LU>/1/12/2268691_int087.gif</question_img>
+<question>
+The <LU LEMMA="interference" CAT="N" FLX="TABLE" Nb="s">interference</LU> <LU LEMMA="fringe" CAT="N" FLX="TABLE" Nb="p">fringes</LU> are observed in the <LU LEMMA="air" CAT="N" FLX="TABLE" Nb="s">air</LU> <LU LEMMA="wedge" CAT="N" FLX="TABLE" Nb="s">wedge</LU> made in the travelling <LU LEMMA="light" CAT="N" FLX="TABLE" Nb="s">light</LU> of two <LU LEMMA="glass" CAT="N" FLX="TABLE" Nb="s">glass</LU> <LU LEMMA="plane" CAT="N" FLX="TABLE" Nb="p">planes</LU> and a wire <LU LEMMA="clamped" CAT="A">clamped</LU> between them. Find the wire <LU LEMMA="diameter" CAT="N" FLX="TABLE" Nb="s">diameter</LU> if <LU LEMMA="wavelength" CAT="N" FLX="TABLE" Nb="s">wavelength</LU> is 550 nm, h = 3.0 sm, <LU LEMMA="interference" CAT="N" FLX="TABLE" Nb="s">interference</LU> <LU LEMMA="pattern" CAT="N" FLX="TABLE" Nb="s">pattern</LU> <LU LEMMA="pitch" CAT="N" FLX="TABLE" Nb="s">pitch</LU> is 0.05 mm.
+</question>
+<answers>
+<answer right="no">	0.495 mm</answer>
+<answer right="no">	0.33 mm</answer>
+<answer right="no">	0.165 mm</answer>
+<answer right="yes">0.0825 mm</answer>
+<answer right="no">	0.0415 mm</answer>
+<answer right="no">	No right answer.</answer>
+</answers>

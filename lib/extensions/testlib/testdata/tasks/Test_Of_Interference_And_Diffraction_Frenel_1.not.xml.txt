@@ -1,3 +1,6 @@
- Coherence length and time characterize  ... temporal coherence<LU LEMMA="temporal coherence" CAT="N" FLX="NEUTER_E" Case="loc" Nb="sg">temporal coherence</LU>. ... spatial coherence<LU LEMMA="spatial coherence" CAT="N" FLX="NEUTER_E" Case="loc" Nb="sg">spatial coherence</LU>. The first measure characterizes temporal
-      coherence, the second - spatial coherence. The first measure characterizes spatial
-      coherence, the second - temporal coherence. No right answer.
+<LU LEMMA="coherence" CAT="N" FLX="TABLE" Nb="s">Coherence</LU> <LU LEMMA="length" CAT="N" FLX="CLOTH" Nb="s">length</LU> and time characterize ...
+... <LU LEMMA="temporal" CAT="A">temporal</LU> <LU LEMMA="coherence" CAT="N" FLX="TABLE" Nb="s">coherence</LU>.
+... <LU LEMMA="spatial" CAT="A">spatial</LU> <LU LEMMA="coherence" CAT="N" FLX="TABLE" Nb="s">coherence</LU>.
+The first <LU LEMMA="measure" CAT="N" FLX="TABLE" Nb="s">measure</LU> characterizes <LU LEMMA="temporal" CAT="A">temporal</LU> <LU LEMMA="coherence" CAT="N" FLX="TABLE" Nb="s">coherence</LU>, the second - <LU LEMMA="spatial" CAT="A">spatial</LU> <LU LEMMA="coherence" CAT="N" FLX="TABLE" Nb="s">coherence</LU>.
+The first <LU LEMMA="measure" CAT="N" FLX="TABLE" Nb="s">measure</LU> characterizes <LU LEMMA="spatial" CAT="A">spatial</LU> <LU LEMMA="coherence" CAT="N" FLX="TABLE" Nb="s">coherence</LU>, the second - <LU LEMMA="temporal" CAT="A">temporal</LU> <LU LEMMA="coherence" CAT="N" FLX="TABLE" Nb="s">coherence</LU>.
+ No right answer.

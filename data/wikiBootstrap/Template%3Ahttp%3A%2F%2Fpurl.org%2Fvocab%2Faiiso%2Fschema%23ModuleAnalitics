@@ -1,0 +1,141 @@
+{{#sparql: SELECT  ?label WHERE {
+   OPTIONAL {?? rdfs:label ?label . FILTER (langMatches(lang(?label), "en")) } 
+   OPTIONAL {?? rdfs:label ?label } } 
+ | format=template
+ | template=Template:TitleTemplate
+}}
+
+=== Basic Statistics ===
+
+==== Test coverage ====
+
+{{#widget: TableResult | 
+ columnConfiguration = {{ 
+      {{ variableName = 'CoveredTerms'
+       | displayName = 'Covered Terms'
+      }} | 
+      {{ variableName = 'UncoveredTerms'
+       | displayName = 'Uncovered Terms'
+      }} | 
+      {{ valueResolver = 'PERCENT'
+       | variableName = 'Persent'
+       | displayName = 'Сover Ratio'
+      }} }}
+ | query = 'SELECT (COUNT(DISTINCT ?TestTerm) AS ?CoveredTerms)
+((COUNT(DISTINCT ?CommonTerm) - COUNT(DISTINCT ?TestTerm)) AS ?UncoveredTerms) 
+((COUNT(DISTINCT ?TestTerm)/COUNT(DISTINCT ?CommonTerm)) AS ?Persent)
+ WHERE { 
+   { ??  learningRu:hasLecture ?Lecture } UNION 
+   { ?Lecture learningRu:isLectureOf ?? } .
+   {?Lecture learningRu:hasTerm ?CommonTerm} UNION 
+   {?CommonTerm learningRu:isTermOf ?Lecture} .
+   OPTIONAL {   
+   { ??  learningRu:hasTest ?Test } UNION 
+   { ?Test learningRu:isTestOf ?? } .
+   {?Test ifmotest:hasGroupOfTasks ?GroupOfTasks} UNION 
+   {?GroupOfTasks ifmotest:isGroupOfTasksOf ?Test} . 
+   
+   {?GroupOfTasks ifmotest:hasTask ?Task} UNION 
+   {?Task ifmotest:isTaskOf ?GroupOfTasks}
+   
+   {?Task learningRu:hasTerm ?TestTerm} UNION 
+   {?TestTerm learningRu:isTermOf ?Task} .
+   
+   { ??  learningRu:hasLecture ?Lecture } UNION 
+   { ?Lecture learningRu:isLectureOf ?? } .
+   {?Lecture learningRu:hasTerm ?TestTerm} UNION 
+   {?TestTerm learningRu:isTermOf ?Lecture} .
+      
+   }
+}'
+}}
+
+==== The most covered terms ====
+{{#widget: TagCloud | 
+ query = 'SELECT ?TestTerm (COUNT (DISTINCT ?Task) As ?count)   WHERE { 
+   { ??  learningRu:hasTest ?Test } 
+   UNION 
+   { ?Test learningRu:isTestOf ?? } .
+   {?Test ifmotest:hasGroupOfTasks ?GroupOfTasks} UNION 
+   {?GroupOfTasks ifmotest:isGroupOfTasksOf ?Test} . 
+   
+   {?GroupOfTasks ifmotest:hasTask ?Task} UNION 
+   {?Task ifmotest:isTaskOf ?GroupOfTasks}
+   
+   {?Task learningRu:hasTerm ?TestTerm} UNION 
+   {?TestTerm learningRu:isTermOf ?Task} .
+   
+   OPTIONAL {
+   { ?? learningRu:hasLecture ?Lecture } UNION 
+      { ?Lecture learningRu:isLectureOf ??} .
+      {?Lecture learningRu:hasTerm ?TestTerm} UNION 
+      {?TestTerm learningRu:isTermOf ?Lecture} .
+    }
+} GROUP BY ?TestTerm HAVING (COUNT (?Lecture) > 0)' |
+  input = 'TestTerm' |
+  output = 'count' |
+}}
+
+==== Uncovered Terms ====
+
+{{#widget: TableResult |
+ columnConfiguration = {{ 
+      {{ variableName = 'TestTerm '
+       | displayName = 'Term'
+      }} | 
+      {{ variableName = 'TaskCount'
+       | displayName = 'Count'
+      }} }} | 
+ query = 'SELECT ?TestTerm (COUNT (DISTINCT ?Task) As ?TaskCount)   WHERE { 
+   { ?? learningRu:hasTest ?Test } 
+   
+   UNION 
+   { ?Test learningRu:isTestOf ??} .
+   {?Test ifmotest:hasGroupOfTasks ?GroupOfTasks} UNION 
+   {?GroupOfTasks ifmotest:isGroupOfTasksOf ?Test} . 
+   
+   {?GroupOfTasks ifmotest:hasTask ?Task} UNION 
+   {?Task ifmotest:isTaskOf ?GroupOfTasks}
+   
+   {?Task learningRu:hasTerm ?TestTerm} UNION 
+   {?TestTerm learningRu:isTermOf ?Task} .
+   
+   OPTIONAL {
+   { ?? learningRu:hasLecture ?Lecture } UNION 
+      { ?Lecture learningRu:isLectureOf ??} .
+      {?Lecture learningRu:hasTerm ?TestTerm} UNION 
+      {?TestTerm learningRu:isTermOf ?Lecture} .
+    }
+} GROUP BY ?TestTerm HAVING (COUNT (?Lecture) = 0)'
+}}
+
+=== Сovering Lectures ===
+
+{{#widget: BarChart | 
+ input = 'Lecture'
+ | query = 'SELECT ?Lecture (COUNT (DISTINCT ?Term) As ?TermCount) (COUNT (DISTINCT ?TestTerm) As ?TestTermCount)  WHERE { 
+   { ?? learningRu:hasLecture ?Lecture } UNION 
+      { ?Lecture learningRu:isLectureOf  ??} .
+      {?Lecture learningRu:hasTerm ?Term} UNION 
+      {?Term learningRu:isTermOf ?Lecture} .
+   OPTIONAL{
+   { ?? learningRu:hasTest ?Test } 
+   UNION 
+   { ?Test learningRu:isTestOf ??} .
+   {?Test ifmotest:hasGroupOfTasks ?GroupOfTasks} UNION 
+   {?GroupOfTasks ifmotest:isGroupOfTasksOf ?Test} . 
+   
+   {?GroupOfTasks ifmotest:hasTask ?Task} UNION 
+   {?Task ifmotest:isTaskOf ?GroupOfTasks}
+   
+   {?Task learningRu:hasTerm ?TestTerm} UNION 
+   {?TestTerm learningRu:isTermOf ?Task} 
+   
+         {?Lecture learningRu:hasTerm ?TestTerm} UNION 
+      {?TestTerm learningRu:isTermOf ?Lecture} .
+   }
+} GROUP BY ?Lecture'
+ | output = {{ 'TestTermCount' | 'TermCount' }}
+ | barType = 'bar'
+}}
+

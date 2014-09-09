@@ -1,4 +1,15 @@
- <img src="http://open.ifmo.ru/images/0/0f/2268471_int008.gif"/> A ray emitted by the light source S hits the
-    Michelson interferometer. It is divided in half by the beam
-    splitter. The rays unit on the screen P. Path difference of the
-    interfering rays is:  SOM1 - OM1 OM1 - SOM2 OM1 - OM2 No right answer. 2Â·(OM1 - OM2) 2Â·(OM1 - OP)
+﻿
+
+<task>
+<question_img>http://<LU LEMMA="open" CAT="A">open</LU>.ifmo.ru/<LU LEMMA="image" CAT="N" FLX="TABLE" Nb="p">images</LU>/0/0f/2268471_int008.gif</question_img>
+<question>
+A <LU LEMMA="ray" CAT="N" FLX="TABLE" Nb="s">ray</LU> emitted by the <LU LEMMA="light" CAT="N" FLX="TABLE" Nb="s">light</LU> <LU LEMMA="source" CAT="N" FLX="TABLE" Nb="s">source</LU> S hits the <LU LEMMA="Michelson" CAT="N" DRV="POSESSIVE" FLX="TABLE" TYPE="Prop" Nb="s">Michelson</LU> <LU LEMMA="interferometer" CAT="N" FLX="TABLE" Nb="s">interferometer</LU>. It is divided in half by the <LU LEMMA="beam" CAT="N" FLX="TABLE" Nb="s">beam</LU> <LU LEMMA="splitter" CAT="N" FLX="TABLE" Nb="s">splitter</LU>. The <LU LEMMA="ray" CAT="N" FLX="TABLE" Nb="p">rays</LU> unit on the <LU LEMMA="screen" CAT="N" FLX="TABLE" Nb="s">screen</LU> P. <LU LEMMA="path" CAT="N" FLX="TABLE" Nb="s">Path</LU> difference of the <LU LEMMA="interfering" CAT="A">interfering</LU> <LU LEMMA="ray" CAT="N" FLX="TABLE" Nb="p">rays</LU> is:
+</question>
+<answers>
+<answer right="no">	SOM1 - OM1</answer>
+<answer right="no">	OM1 - SOM2</answer>
+<answer right="no">	2·(OM1 - OM2)</answer>
+<answer right="no">	2·(OM1 - OP)</answer>
+<answer right="no">	OM1 - OM2</answer>
+<answer right="yes">No right answer.</answer>
+</answers>

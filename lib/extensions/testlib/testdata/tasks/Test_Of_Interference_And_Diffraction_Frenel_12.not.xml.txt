@@ -1,5 +1,15 @@
- <img src="http://open.ifmo.ru/images/0/07/2268851_dif30p.gif"/> A screen with a changeable aperture is set between a
-    point source S and a point of observance P. Amplitude in P
-    corresponds to the vector AB1 if the radius of the aperture is
-    R. If the amplitude now corresponds to the vector AB2, what is
-    the change of R?  No right answer. R decreased by 1.29 times. R increased by 1.29 times. R increased by 1.67 times. R decreased by 1.73 times. R increased by 1.73 times.
+
+
+<task>
+<question_img>http://<LU LEMMA="open" CAT="A">open</LU>.ifmo.ru/<LU LEMMA="image" CAT="N" FLX="TABLE" Nb="p">images</LU>/0/07/2268851_dif30p.gif</question_img>
+<question>
+A <LU LEMMA="screen" CAT="N" FLX="TABLE" Nb="s">screen</LU> with a <LU LEMMA="changeable" CAT="A">changeable</LU> <LU LEMMA="aperture" CAT="N" FLX="TABLE" Nb="s">aperture</LU> is set between a <LU LEMMA="point" CAT="A">point</LU> <LU LEMMA="source" CAT="N" FLX="TABLE" Nb="s">source</LU> S and a <LU LEMMA="point" CAT="A">point</LU> of <LU LEMMA="observance" CAT="N" FLX="TABLE" Nb="s">observance</LU> P. <LU LEMMA="amplitude" CAT="N" FLX="TABLE" Nb="s">Amplitude</LU> in P corresponds to the <LU LEMMA="vector" CAT="N" FLX="TABLE" Nb="s">vector</LU> AB1 if the <LU LEMMA="radius" CAT="N" FLX="TABLE" Nb="s">radius</LU> of the <LU LEMMA="aperture" CAT="N" FLX="TABLE" Nb="s">aperture</LU> is R. If the <LU LEMMA="amplitude" CAT="N" FLX="TABLE" Nb="s">amplitude</LU> now corresponds to the <LU LEMMA="vector" CAT="N" FLX="TABLE" Nb="s">vector</LU> AB2, what is the <LU LEMMA="change" CAT="N" FLX="TABLE" Nb="s">change</LU> of R?
+</question>
+<answers>
+<answer right="no">	R decreased by 1.29 times.</answer>
+<answer right="yes">R increased by 1.29 times.</answer>
+<answer right="no">	R increased by 1.67 times.</answer>
+<answer right="no">	R decreased by 1.73 times.</answer>
+<answer right="no">	R increased by 1.73 times.</answer>
+<answer right="no">	No right answer.</answer>
+</answers>

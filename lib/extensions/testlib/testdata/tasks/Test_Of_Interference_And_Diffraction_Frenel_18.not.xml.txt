@@ -1,7 +1,15 @@
- <img src="http://open.ifmo.ru/images/7/79/2268861_dif32.gif"/> A plane monochromatic lightwave (distance a is large,
-    Î» = 400 nm) having intensity J0 falls normally on the round
-    aperture with diameter D = 2.0 mm. The interference pattern is
-    on the screen placed at the distance b = 2 m. One of the
-    vectors shown on the vector diagram is corresponding to the
-    amplitude in P (the centre of the screen). Mark the number of
-    the vector, corresponding to a given aperture.  1 2 3 4 5 No right answer.
+﻿
+
+<task>
+<question_img>http://<LU LEMMA="open" CAT="A">open</LU>.ifmo.ru/<LU LEMMA="image" CAT="N" FLX="TABLE" Nb="p">images</LU>/7/79/2268861_dif32.gif</question_img>
+<question>
+A <LU LEMMA="plane" CAT="N" FLX="TABLE" Nb="s">plane</LU> <LU LEMMA="monochromatic" CAT="A">monochromatic</LU> <LU LEMMA="lightwave" CAT="N" FLX="TABLE" Nb="s">lightwave</LU> (<LU LEMMA="distance" CAT="N" FLX="TABLE" Nb="s">distance</LU> a is <LU LEMMA="large" CAT="A">large</LU>, λ = 400 nm) having <LU LEMMA="intensity" CAT="N" FLX="TABLE" Nb="s">intensity</LU> J0 falls normally on the <LU LEMMA="round" CAT="A">round</LU> <LU LEMMA="aperture" CAT="N" FLX="TABLE" Nb="s">aperture</LU> with <LU LEMMA="diameter" CAT="N" FLX="TABLE" Nb="s">diameter</LU> D = 2.0 mm. The <LU LEMMA="interference" CAT="N" FLX="TABLE" Nb="s">interference</LU> <LU LEMMA="pattern" CAT="N" FLX="TABLE" Nb="s">pattern</LU> is on the <LU LEMMA="screen" CAT="N" FLX="TABLE" Nb="s">screen</LU> placed at the <LU LEMMA="distance" CAT="N" FLX="TABLE" Nb="s">distance</LU> b = 2 m. One of the <LU LEMMA="vector" CAT="N" FLX="TABLE" Nb="p">vectors</LU> shown on the <LU LEMMA="vector" CAT="N" FLX="TABLE" Nb="s">vector</LU> <LU LEMMA="diagram" CAT="N" FLX="TABLE" Nb="s">diagram</LU> is corresponding to the <LU LEMMA="amplitude" CAT="N" FLX="TABLE" Nb="s">amplitude</LU> in P (the <LU LEMMA="centre" CAT="N" FLX="TABLE" Nb="s">centre</LU> of the <LU LEMMA="screen" CAT="N" FLX="TABLE" Nb="s">screen</LU>). Mark the <LU LEMMA="number" CAT="N" FLX="TABLE" Nb="s">number</LU> of the <LU LEMMA="vector" CAT="N" FLX="TABLE" Nb="s">vector</LU>, corresponding to a given <LU LEMMA="aperture" CAT="N" FLX="TABLE" Nb="s">aperture</LU>.
+</question>
+<answers>
+<answer right="no">	1 </answer>
+<answer right="yes">	2 </answer>
+<answer right="no">	3 </answer>
+<answer right="no">	4 </answer>
+<answer right="no">	5 </answer>
+<answer right="no">	No right answer.</answer>
+</answers>

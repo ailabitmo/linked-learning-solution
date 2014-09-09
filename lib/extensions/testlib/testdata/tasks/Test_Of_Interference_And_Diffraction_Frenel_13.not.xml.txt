@@ -1,5 +1,15 @@
- <img src="http://open.ifmo.ru/images/9/91/2268411_int045.gif"/> The image of a point monochromatic source S is
-    created by a lens L (having focal distance f) in point A. The
-    lens has been cut in half and expanded at the distance h. What
-    distance d enabling the interferencec pattern observance should
-    be set?  d < f d > f No right answer. 2Â·f > d > f d > 2Â·f/h d < 2Â·h/f
+﻿
+
+<task>
+<question_img>http://<LU LEMMA="open" CAT="A">open</LU>.ifmo.ru/<LU LEMMA="image" CAT="N" FLX="TABLE" Nb="p">images</LU>/9/91/2268411_int045.gif</question_img>
+<question>
+The <LU LEMMA="image" CAT="N" FLX="TABLE" Nb="s">image</LU> of a <LU LEMMA="point" CAT="A">point</LU> <LU LEMMA="monochromatic" CAT="A">monochromatic</LU> <LU LEMMA="source" CAT="N" FLX="TABLE" Nb="s">source</LU> S is created by a <LU LEMMA="lens" CAT="N" FLX="TABLE" Nb="s">lens</LU> L (having <LU LEMMA="focal" CAT="A">focal</LU> <LU LEMMA="distance" CAT="N" FLX="TABLE" Nb="s">distance</LU> f) in <LU LEMMA="point" CAT="A">point</LU> A. The <LU LEMMA="lens" CAT="N" FLX="TABLE" Nb="s">lens</LU> has been cut in half and expanded at the <LU LEMMA="distance" CAT="N" FLX="TABLE" Nb="s">distance</LU> h. What <LU LEMMA="distance" CAT="N" FLX="TABLE" Nb="s">distance</LU> d enabling the <LU LEMMA="interference" CAT="N" FLX="TABLE" Nb="s">interference</LU> <LU LEMMA="pattern" CAT="N" FLX="TABLE" Nb="s">pattern</LU> <LU LEMMA="observance" CAT="N" FLX="TABLE" Nb="s">observance</LU> should be set?
+</question>
+<answers>
+<answer right="no">	d &lt; f</answer>
+<answer right="yes">d &gt; f</answer>
+<answer right="no">	2·f &gt; d &gt; f</answer>
+<answer right="no">	d &gt; 2·f/h</answer>
+<answer right="no">	d &lt; 2·h/f</answer>
+<answer right="no">	No right answer.</answer>
+</answers>

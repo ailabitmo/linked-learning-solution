@@ -1,6 +1,8 @@
- <img src="http://open.ifmo.ru/images/3/3e/2268901_dif18p.gif"/> A disc D having diameter 0.5 sm and roughnesses of 10
-    mkm is placed at 1 m distance from a point source S (Î» = 0.5
-    mkm). Assuming that Poisson light can be observed until
-    roughnesses overlap the Fresnel zone not exceeding 1/4, find
-    the minimal distance L (in meters), when Poisson spot can be
-    observed. 
+﻿
+
+<task>
+<question_img>http://<LU LEMMA="open" CAT="A">open</LU>.ifmo.ru/<LU LEMMA="image" CAT="N" FLX="TABLE" Nb="p">images</LU>/3/3e/2268901_dif18p.gif</question_img>
+<question>
+A <LU LEMMA="disc" CAT="N" FLX="TABLE" Nb="s">disc</LU> D having <LU LEMMA="diameter" CAT="N" FLX="TABLE" Nb="s">diameter</LU> 0.5 sm and roughnesses of 10 mkm is placed at 1 m <LU LEMMA="distance" CAT="N" FLX="TABLE" Nb="s">distance</LU> from a <LU LEMMA="point" CAT="A">point</LU> <LU LEMMA="source" CAT="N" FLX="TABLE" Nb="s">source</LU> S (λ = 0.5 mkm). Assuming that <LU LEMMA="Poisson" CAT="N" DRV="POSESSIVE" FLX="TABLE" TYPE="Prop" Nb="s">Poisson</LU> <LU LEMMA="light" CAT="N" FLX="TABLE" Nb="s">light</LU> can be observed until roughnesses overlap the <LU LEMMA="Fresnel" CAT="N" DRV="POSESSIVE" FLX="TABLE" TYPE="Prop" Nb="s">Fresnel</LU> <LU LEMMA="zone" CAT="N" FLX="TABLE" Nb="s">zone</LU> not exceeding 1/4, find the <LU LEMMA="minimal" CAT="A">minimal</LU> <LU LEMMA="distance" CAT="N" FLX="TABLE" Nb="s">distance</LU> L (in meters), when <LU LEMMA="Poisson" CAT="N" DRV="POSESSIVE" FLX="TABLE" TYPE="Prop" Nb="s">Poisson</LU> <LU LEMMA="spot" CAT="N" FLX="TABLE" Nb="s">spot</LU> can be observed.
+</question>
+<answers type="edittext" right="10"/>

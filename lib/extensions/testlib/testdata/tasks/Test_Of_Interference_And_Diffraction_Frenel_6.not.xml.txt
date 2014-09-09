@@ -1,8 +1,13 @@
- <img src="http://open.ifmo.ru/images/8/82/2268591_int065.gif"/> What will be the change of the interference pattern <LU LEMMA="the interference pattern" CAT="N" FLX="NEUTER_E" Case="loc" Nb="sg">The interference pattern</LU>
-    of Newton rings if the slot between the lens and the plane is <LU LEMMA="newton's rings" CAT="N" FLX="NEUTER_E" Case="loc" Nb="sg">Newton's Rings</LU>
-    filled by liquid having minor refractive index in respect to
-    the glass refractive index?  No right answer. Radiuses of the rings will
-      decrease. The interference pattern remains. The interference pattern will become
-      inverse. Radiuses of the rings will
-      increase. The will be no interference
-      pattern.
+<task>
+<question_img>http://<LU LEMMA="open" CAT="A">open</LU>.ifmo.ru/<LU LEMMA="image" CAT="N" FLX="TABLE" Nb="p">images</LU>/8/82/2268591_int065.gif</question_img>
+<question>
+What will be the <LU LEMMA="change" CAT="N" FLX="TABLE" Nb="s">change</LU> of the <LU LEMMA="interference" CAT="N" FLX="TABLE" Nb="s">interference</LU> <LU LEMMA="pattern" CAT="N" FLX="TABLE" Nb="s">pattern</LU> of <LU LEMMA="Newton" CAT="N" DRV="POSESSIVE" FLX="TABLE" TYPE="Prop" Nb="s">Newton</LU>'s <LU LEMMA="ring" CAT="N" FLX="TABLE" Nb="p">rings</LU> if the <LU LEMMA="slot" CAT="N" FLX="TABLE" Nb="s">slot</LU> between the <LU LEMMA="lens" CAT="N" FLX="TABLE" Nb="s">lens</LU> and the <LU LEMMA="plane" CAT="N" FLX="TABLE" Nb="s">plane</LU> is filled by <LU LEMMA="liquid" CAT="N" FLX="TABLE" Nb="s">liquid</LU> having <LU LEMMA="minor" CAT="A">minor</LU> <LU LEMMA="refractive" CAT="A">refractive</LU> index in respect to the <LU LEMMA="glass" CAT="N" FLX="TABLE" Nb="s">glass</LU> <LU LEMMA="refractive" CAT="A">refractive</LU> index?
+</question>
+<answers>
+<answer right="no">	The <LU LEMMA="interference" CAT="N" FLX="TABLE" Nb="s">interference</LU> <LU LEMMA="pattern" CAT="N" FLX="TABLE" Nb="s">pattern</LU> remains.</answer>
+<answer right="no">	The <LU LEMMA="interference" CAT="N" FLX="TABLE" Nb="s">interference</LU> <LU LEMMA="pattern" CAT="N" FLX="TABLE" Nb="s">pattern</LU> will become inverse.</answer>
+<answer right="no">	Radiuses of the <LU LEMMA="ring" CAT="N" FLX="TABLE" Nb="p">rings</LU> will <LU LEMMA="increase" CAT="N" FLX="TABLE" Nb="s">increase</LU>.</answer>
+<answer right="yes">Radiuses of the <LU LEMMA="ring" CAT="N" FLX="TABLE" Nb="p">rings</LU> will <LU LEMMA="decrease" CAT="N" FLX="TABLE" Nb="s">decrease</LU>.</answer>
+<answer right="no">	The will be no <LU LEMMA="interference" CAT="N" FLX="TABLE" Nb="s">interference</LU> <LU LEMMA="pattern" CAT="N" FLX="TABLE" Nb="s">pattern</LU>.</answer>
+<answer right="no">	No right answer.</answer>
+</answers>

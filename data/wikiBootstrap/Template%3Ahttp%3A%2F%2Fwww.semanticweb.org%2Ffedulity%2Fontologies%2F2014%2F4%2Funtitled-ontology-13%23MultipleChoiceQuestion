@@ -5,12 +5,12 @@
  | template=Template:TitleTemplate
 }}
 
-=== Общая информация ===
-'''Тип вопроса:''' Вопрос с множественным выбором
+=== Main info ===
+'''Question Type:''' MultipleChoiceQuestion
 
-'''Сложность:''' $this.ifmotest:difficulty$
+'''Difficulty:''' $this.ifmotest:difficulty$
 
-=== Вопрос === 
+=== Question === 
 {{#widget: QueryResult | 
  hideIfEmpty = true
  | query = 'SELECT ?content
@@ -26,7 +26,7 @@ WHERE {
 }}
 <br/>
 
-=== Варианты ответов ===
+=== Answers ===
 
 {{#widget: QueryResult | 
  hideIfEmpty = true
@@ -39,7 +39,7 @@ WHERE {
   | asynch = true
 }}
 
-=== Правильные ответы ===
+=== Correct Answers ===
 
 {{#widget: QueryResult | 
  hideIfEmpty = true
@@ -47,6 +47,19 @@ WHERE {
 WHERE { 
 ?? ifmotest:hasCorrectAnswer ?answer .
 ?answer ifmotest:html_content ?content
+ }'
+  | format = 'UL'
+  | asynch = true
+}}
+
+
+=== Terms ===
+
+{{#widget: QueryResult | 
+ hideIfEmpty = true
+ | query = 'SELECT ?term
+WHERE { 
+?? learningRu:hasTerm ?term .
  }'
   | format = 'UL'
   | asynch = true

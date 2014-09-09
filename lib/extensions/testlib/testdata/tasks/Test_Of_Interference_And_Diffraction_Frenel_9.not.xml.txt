@@ -1,5 +1,15 @@
- <img src="http://open.ifmo.ru/images/5/5d/2268771_dif11p.gif"/> A monochromatic light source throws light to the
-    screen with an aperture. Fresnel diffraction by a round <LU LEMMA="diffraction" CAT="N" FLX="NEUTER_E" Case="loc" Nb="sg">Diffraction</LU>
-    aperture is observed on the 2nd screen. Choose all possible
-    numbers of the observed pattern given an odd number of Fresnel  <LU LEMMA="subtree" CAT="N" FLX="NEUTER_E" Case="loc" Nb="sg">Subtree</LU>
-    zones open.  1 2 3 4 5 No right answer.
+
+
+<task>
+<question_img>http://<LU LEMMA="open" CAT="A">open</LU>.ifmo.ru/<LU LEMMA="image" CAT="N" FLX="TABLE" Nb="p">images</LU>/5/5d/2268771_dif11p.gif</question_img>
+<question>
+A <LU LEMMA="monochromatic" CAT="A">monochromatic</LU> <LU LEMMA="light" CAT="N" FLX="TABLE" Nb="s">light</LU> <LU LEMMA="source" CAT="N" FLX="TABLE" Nb="s">source</LU> throws <LU LEMMA="light" CAT="N" FLX="TABLE" Nb="s">light</LU> to the <LU LEMMA="screen" CAT="N" FLX="TABLE" Nb="s">screen</LU> with an <LU LEMMA="aperture" CAT="N" FLX="TABLE" Nb="s">aperture</LU>. <LU LEMMA="Fresnel" CAT="N" DRV="POSESSIVE" FLX="TABLE" TYPE="Prop" Nb="s">Fresnel</LU> <LU LEMMA="diffraction" CAT="N" FLX="TABLE" Nb="s">diffraction</LU> by a <LU LEMMA="round" CAT="A">round</LU> <LU LEMMA="aperture" CAT="N" FLX="TABLE" Nb="s">aperture</LU> is observed on the 2nd <LU LEMMA="screen" CAT="N" FLX="TABLE" Nb="s">screen</LU>. Choose all <LU LEMMA="possible" CAT="A">possible</LU> <LU LEMMA="number" CAT="N" FLX="TABLE" Nb="p">numbers</LU> of the observed <LU LEMMA="pattern" CAT="N" FLX="TABLE" Nb="s">pattern</LU> given an <LU LEMMA="odd" CAT="A">odd</LU> <LU LEMMA="number" CAT="N" FLX="TABLE" Nb="s">number</LU> of <LU LEMMA="Fresnel" CAT="N" DRV="POSESSIVE" FLX="TABLE" TYPE="Prop" Nb="s">Fresnel</LU> <LU LEMMA="zone" CAT="N" FLX="TABLE" Nb="p">zones</LU> <LU LEMMA="open" CAT="A">open</LU>.
+</question>
+<answers>
+<answer right="no">	1 </answer>
+<answer right="yes">2 </answer>
+<answer right="no">	3 </answer>
+<answer right="no">	4 </answer>
+<answer right="no">	5 </answer>
+<answer right="no">	No right answer.</answer>
+</answers>

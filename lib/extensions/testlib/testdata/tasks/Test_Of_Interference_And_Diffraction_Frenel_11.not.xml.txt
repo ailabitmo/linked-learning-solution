@@ -1,9 +1,14 @@
- <img src="http://open.ifmo.ru/images/3/3e/2268901_dif18p.gif"/> A point monochromatic source throws light to an
-    opaque disk D. A light spot (Poisson spot) is observed on the
-    screen P in the centre of the geometric shadow. Select all true
-    statements about this spot.  The spot appears only when the disc
-      overlaps an odd number of Fresnel zones. The spot appears only when the disc
-      overlaps an even number of Fresnel zones. The spot appears only when the disc
-      overlaps any number of Fresnel zones. If D increases, the spot becomes more
-      narrow and hueless. If L decreases, the spot becomes more
-      narrow and hueless.
+
+
+<task>
+<question_img>http://<LU LEMMA="open" CAT="A">open</LU>.ifmo.ru/<LU LEMMA="image" CAT="N" FLX="TABLE" Nb="p">images</LU>/3/3e/2268901_dif18p.gif</question_img>
+<question>
+A <LU LEMMA="point" CAT="A">point</LU> <LU LEMMA="monochromatic" CAT="A">monochromatic</LU> <LU LEMMA="source" CAT="N" FLX="TABLE" Nb="s">source</LU> throws <LU LEMMA="light" CAT="N" FLX="TABLE" Nb="s">light</LU> to an <LU LEMMA="opaque" CAT="A">opaque</LU> <LU LEMMA="disc" CAT="N" FLX="TABLE" Nb="s">disk</LU> D. A <LU LEMMA="light" CAT="N" FLX="TABLE" Nb="s">light</LU> <LU LEMMA="spot" CAT="N" FLX="TABLE" Nb="s">spot</LU> (<LU LEMMA="Poisson" CAT="N" DRV="POSESSIVE" FLX="TABLE" TYPE="Prop" Nb="s">Poisson</LU> <LU LEMMA="spot" CAT="N" FLX="TABLE" Nb="s">spot</LU>) is observed on the <LU LEMMA="screen" CAT="N" FLX="TABLE" Nb="s">screen</LU> P in the <LU LEMMA="centre" CAT="N" FLX="TABLE" Nb="s">centre</LU> of the geometric <LU LEMMA="shadow" CAT="N" FLX="TABLE" Nb="s">shadow</LU>. Select all true statements about this <LU LEMMA="spot" CAT="N" FLX="TABLE" Nb="s">spot</LU>.
+</question>
+<answers>
+<answer right="no">	The <LU LEMMA="spot" CAT="N" FLX="TABLE" Nb="s">spot</LU> appears only when the <LU LEMMA="disc" CAT="N" FLX="TABLE" Nb="s">disc</LU> overlaps an <LU LEMMA="odd" CAT="A">odd</LU> <LU LEMMA="number" CAT="N" FLX="TABLE" Nb="s">number</LU> of <LU LEMMA="Fresnel" CAT="N" DRV="POSESSIVE" FLX="TABLE" TYPE="Prop" Nb="s">Fresnel</LU> <LU LEMMA="zone" CAT="N" FLX="TABLE" Nb="p">zones</LU>.</answer>
+<answer right="no">	The <LU LEMMA="spot" CAT="N" FLX="TABLE" Nb="s">spot</LU> appears only when the <LU LEMMA="disc" CAT="N" FLX="TABLE" Nb="s">disc</LU> overlaps an even <LU LEMMA="number" CAT="N" FLX="TABLE" Nb="s">number</LU> of <LU LEMMA="Fresnel" CAT="N" DRV="POSESSIVE" FLX="TABLE" TYPE="Prop" Nb="s">Fresnel</LU> <LU LEMMA="zone" CAT="N" FLX="TABLE" Nb="p">zones</LU>.</answer>
+<answer right="no">	The <LU LEMMA="spot" CAT="N" FLX="TABLE" Nb="s">spot</LU> appears only when the <LU LEMMA="disc" CAT="N" FLX="TABLE" Nb="s">disc</LU> overlaps any <LU LEMMA="number" CAT="N" FLX="TABLE" Nb="s">number</LU> of <LU LEMMA="Fresnel" CAT="N" DRV="POSESSIVE" FLX="TABLE" TYPE="Prop" Nb="s">Fresnel</LU> <LU LEMMA="zone" CAT="N" FLX="TABLE" Nb="p">zones</LU>.</answer>
+<answer right="yes">If D <LU LEMMA="increase" CAT="N" FLX="TABLE" Nb="p">increases</LU>, the <LU LEMMA="spot" CAT="N" FLX="TABLE" Nb="s">spot</LU> becomes more <LU LEMMA="narrow" CAT="A">narrow</LU> and <LU LEMMA="hueless" CAT="A">hueless</LU>.</answer>
+<answer right="no">	If L <LU LEMMA="decrease" CAT="N" FLX="TABLE" Nb="p">decreases</LU>, the <LU LEMMA="spot" CAT="N" FLX="TABLE" Nb="s">spot</LU> becomes more <LU LEMMA="narrow" CAT="A">narrow</LU> and <LU LEMMA="hueless" CAT="A">hueless</LU>.</answer>
+</answers>

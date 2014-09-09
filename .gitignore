@@ -1,0 +1,7 @@
+*.iml
+scripts/nlp/.idea/encodings.xml
+scripts/nlp/.idea/misc.xml
+scripts/nlp/.idea/modules.xml
+scripts/nlp/.idea/scopes/scope_settings.xml
+scripts/nlp/.idea/vcs.xml
+scripts/nlp/.idea/workspace.xml
