@@ -1,1 +1,2 @@
 com.fluidops.iwb.testlinker.TestLinkProvider=true
+com.fluidops.iwb.testlinker.LemmaTermsProvider=true

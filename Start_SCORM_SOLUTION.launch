@@ -18,4 +18,3 @@
 <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Xmx2048m -Xms512m -XX:PermSize=256m -Dfile.encoding=UTF-8"/>
 <stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="D:\Development\IWB-SCORM\fiwb"/>
 </launchConfiguration>
-

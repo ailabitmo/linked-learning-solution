@@ -32,6 +32,8 @@ parser.add_argument('-f', '--file', dest='filename', required=True, help='write 
 args = parser.parse_args()
 
 term = args.term
+term = term.lower()
+
 dict = args.dict
 filename = args.filename
 
@@ -54,3 +56,5 @@ for word in words: #ищем лемму для каждого слова и за
     #else: out.write("NO_LEMMA"+'\n') #
 
 out.close() #
+
+print "Done!"
